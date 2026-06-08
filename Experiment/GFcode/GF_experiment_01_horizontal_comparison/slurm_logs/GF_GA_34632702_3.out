@@ -1,0 +1,290 @@
+[RunConfig] run_id=3 seed=1003
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验一：横向对比/ga_global_logs/run_03_seed_1003
+[Info] #nodes = 1810
+[Load] Reading scenarios ...
+  - spring: raw edges=3686, days=31
+  - summer: raw edges=3686, days=30
+  - autumn: raw edges=3686, days=31
+  - winter: raw edges=3686, days=30
+[Filter] EDGE_WEIGHT_MIN=1.0
+  - active_nodes=1450  inactive_nodes(fixed NONE)=360
+  - spring: removed=2281, kept=1405
+  - summer: removed=2206, kept=1480
+  - autumn: removed=2131, kept=1555
+  - winter: removed=2189, kept=1497
+  - spring: filtered edges (active subgraph)=1405
+  - summer: filtered edges (active subgraph)=1480
+  - autumn: filtered edges (active subgraph)=1555
+  - winter: filtered edges (active subgraph)=1497
+[GA] Initialize population ...
+[GA] Init population generated.
+[GA] Evolve under FE budget ...
+[Run 03 | Gen 1] cur_best: cost=87400513.30  viol=1321041.8980  obj=1408442411.26 | best_so_far: cost=87400513.30  viol=1321041.8980  obj=1408442411.26
+[Run 03 | Gen 2] cur_best: cost=87400513.30  viol=1321041.8980  obj=1408442411.26 | best_so_far: cost=87400513.30  viol=1321041.8980  obj=1408442411.26
+[Run 03 | Gen 3] cur_best: cost=86847935.81  viol=1181328.5755  obj=1268176511.29 | best_so_far: cost=86847935.81  viol=1181328.5755  obj=1268176511.29
+[Run 03 | Gen 4] cur_best: cost=86847935.81  viol=1181328.5755  obj=1268176511.29 | best_so_far: cost=86847935.81  viol=1181328.5755  obj=1268176511.29
+[Run 03 | FE 256] best_local_obj=1268176511.29  best_local_cost=86847935.81  best_local_viol=1181328.5755
+[Run 03 | Gen 5] cur_best: cost=86847935.81  viol=1181328.5755  obj=1268176511.29 | best_so_far: cost=86847935.81  viol=1181328.5755  obj=1268176511.29
+[Run 03 | Gen 6] cur_best: cost=98636424.52  viol=1156784.4999  obj=1255420924.43 | best_so_far: cost=98636424.52  viol=1156784.4999  obj=1255420924.43
+[Run 03 | Gen 7] cur_best: cost=102872909.47  viol=1099657.0664  obj=1202529975.90 | best_so_far: cost=102872909.47  viol=1099657.0664  obj=1202529975.90
+[Run 03 | Gen 8] cur_best: cost=104254378.12  viol=1033132.0359  obj=1137386414.02 | best_so_far: cost=104254378.12  viol=1033132.0359  obj=1137386414.02
+[Run 03 | FE 512] best_local_obj=1137386414.02  best_local_cost=104254378.12  best_local_viol=1033132.0359
+[Run 03 | Gen 9] cur_best: cost=104254378.12  viol=1033132.0359  obj=1137386414.02 | best_so_far: cost=104254378.12  viol=1033132.0359  obj=1137386414.02
+[Run 03 | Gen 10] cur_best: cost=104254378.12  viol=1033132.0359  obj=1137386414.02 | best_so_far: cost=104254378.12  viol=1033132.0359  obj=1137386414.02
+[Run 03 | Gen 11] cur_best: cost=108490865.41  viol=1015045.5514  obj=1123536416.84 | best_so_far: cost=108490865.41  viol=1015045.5514  obj=1123536416.84
+[Run 03 | Gen 12] cur_best: cost=108490865.41  viol=1015045.5514  obj=1123536416.84 | best_so_far: cost=108490865.41  viol=1015045.5514  obj=1123536416.84
+[Run 03 | FE 768] best_local_obj=1123536416.84  best_local_cost=108490865.41  best_local_viol=1015045.5514
+[Run 03 | Gen 13] cur_best: cost=108490865.41  viol=1015045.5514  obj=1123536416.84 | best_so_far: cost=108490865.41  viol=1015045.5514  obj=1123536416.84
+[Run 03 | Gen 14] cur_best: cost=115858672.65  viol=989201.9132  obj=1105060585.87 | best_so_far: cost=115858672.65  viol=989201.9132  obj=1105060585.87
+[Run 03 | Gen 15] cur_best: cost=115858672.65  viol=989201.9132  obj=1105060585.87 | best_so_far: cost=115858672.65  viol=989201.9132  obj=1105060585.87
+[Run 03 | Gen 16] cur_best: cost=115858672.65  viol=989201.9132  obj=1105060585.87 | best_so_far: cost=115858672.65  viol=989201.9132  obj=1105060585.87
+[Run 03 | Gen 17] cur_best: cost=115858672.65  viol=989201.9132  obj=1105060585.87 | best_so_far: cost=115858672.65  viol=989201.9132  obj=1105060585.87
+[Run 03 | FE 1024] best_local_obj=1105060585.87  best_local_cost=115858672.65  best_local_viol=989201.9132
+[Run 03 | Gen 18] cur_best: cost=115858672.65  viol=989201.9132  obj=1105060585.87 | best_so_far: cost=115858672.65  viol=989201.9132  obj=1105060585.87
+[Run 03 | Gen 19] cur_best: cost=119266285.85  viol=918491.6235  obj=1037757909.38 | best_so_far: cost=119266285.85  viol=918491.6235  obj=1037757909.38
+[Run 03 | Gen 20] cur_best: cost=119266285.85  viol=918491.6235  obj=1037757909.38 | best_so_far: cost=119266285.85  viol=918491.6235  obj=1037757909.38
+[Run 03 | Gen 21] cur_best: cost=130962674.80  viol=851531.1441  obj=982493818.93 | best_so_far: cost=130962674.80  viol=851531.1441  obj=982493818.93
+[Run 03 | FE 1280] best_local_obj=982493818.93  best_local_cost=130962674.80  best_local_viol=851531.1441
+[Run 03 | Gen 22] cur_best: cost=130962674.80  viol=851531.1441  obj=982493818.93 | best_so_far: cost=130962674.80  viol=851531.1441  obj=982493818.93
+[Run 03 | Gen 23] cur_best: cost=128476044.82  viol=849574.0036  obj=978050048.39 | best_so_far: cost=128476044.82  viol=849574.0036  obj=978050048.39
+[Run 03 | Gen 24] cur_best: cost=128476044.82  viol=849574.0036  obj=978050048.39 | best_so_far: cost=128476044.82  viol=849574.0036  obj=978050048.39
+[Run 03 | Gen 25] cur_best: cost=128383940.04  viol=832834.7676  obj=961218707.62 | best_so_far: cost=128383940.04  viol=832834.7676  obj=961218707.62
+[Run 03 | FE 1536] best_local_obj=961218707.62  best_local_cost=128383940.04  best_local_viol=832834.7676
+[Run 03 | Gen 26] cur_best: cost=128383940.04  viol=832834.7676  obj=961218707.62 | best_so_far: cost=128383940.04  viol=832834.7676  obj=961218707.62
+[Run 03 | Gen 27] cur_best: cost=128383940.04  viol=832834.7676  obj=961218707.62 | best_so_far: cost=128383940.04  viol=832834.7676  obj=961218707.62
+[Run 03 | Gen 28] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 29] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | FE 1792] best_local_obj=873752101.51  best_local_cost=133173019.55  best_local_viol=740579.0820
+[Run 03 | Gen 30] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 31] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 32] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 33] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 34] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | FE 2048] best_local_obj=873752101.51  best_local_cost=133173019.55  best_local_viol=740579.0820
+[Run 03 | Gen 35] cur_best: cost=133173019.55  viol=740579.0820  obj=873752101.51 | best_so_far: cost=133173019.55  viol=740579.0820  obj=873752101.51
+[Run 03 | Gen 36] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 37] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 38] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 2304] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 39] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 40] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 41] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 42] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 2560] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 43] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 44] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 45] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 46] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 2816] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 47] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 48] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 49] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 50] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 51] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 3072] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 52] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 53] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 54] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 55] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 3328] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 56] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 57] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 58] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 59] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 3584] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 60] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 61] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 62] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 63] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 3840] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 64] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 65] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 66] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 67] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 68] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 4096] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 69] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 70] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 71] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 72] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 4352] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 73] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 74] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 75] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 76] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 4608] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 77] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 78] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 79] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 80] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 81] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | FE 4864] best_local_obj=825926235.03  best_local_cost=141277604.47  best_local_viol=684648.6306
+[Run 03 | Gen 82] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 83] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 84] cur_best: cost=141277604.47  viol=684648.6306  obj=825926235.03 | best_so_far: cost=141277604.47  viol=684648.6306  obj=825926235.03
+[Run 03 | Gen 85] cur_best: cost=140448728.70  viol=678666.0682  obj=819114796.92 | best_so_far: cost=140448728.70  viol=678666.0682  obj=819114796.92
+[Run 03 | FE 5120] best_local_obj=819114796.92  best_local_cost=140448728.70  best_local_viol=678666.0682
+[Run 03 | Gen 86] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 87] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 88] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 89] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | FE 5376] best_local_obj=805892984.59  best_local_cost=145882481.44  best_local_viol=660010.5031
+[Run 03 | Gen 90] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 91] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 92] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 93] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | FE 5632] best_local_obj=805892984.59  best_local_cost=145882481.44  best_local_viol=660010.5031
+[Run 03 | Gen 94] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 95] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 96] cur_best: cost=145882481.44  viol=660010.5031  obj=805892984.59 | best_so_far: cost=145882481.44  viol=660010.5031  obj=805892984.59
+[Run 03 | Gen 97] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | Gen 98] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | FE 5888] best_local_obj=799271723.65  best_local_cost=144777312.75  best_local_viol=654494.4109
+[Run 03 | Gen 99] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | Gen 100] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | Gen 101] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | Gen 102] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | FE 6144] best_local_obj=799271723.65  best_local_cost=144777312.75  best_local_viol=654494.4109
+[Run 03 | Gen 103] cur_best: cost=144777312.75  viol=654494.4109  obj=799271723.65 | best_so_far: cost=144777312.75  viol=654494.4109  obj=799271723.65
+[Run 03 | Gen 104] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 105] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 106] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 6400] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 107] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 108] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 109] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 110] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 6656] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 111] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 112] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 113] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 114] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 115] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 6912] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 116] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 117] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 118] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 119] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 7168] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 120] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 121] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 122] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 123] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 7424] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 124] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 125] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 126] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 127] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 7680] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 128] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 129] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 130] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 131] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 132] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 7936] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 133] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 134] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 135] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 136] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 8192] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 137] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 138] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 139] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 140] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 8448] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 141] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 142] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 143] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 144] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 145] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 8704] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 146] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 147] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 148] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 149] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 8960] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 150] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 151] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 152] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 153] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 9216] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 154] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 155] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 156] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 157] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 9472] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 158] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 159] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 160] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 161] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 162] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 9728] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 163] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 164] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 165] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 166] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 9984] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 167] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 168] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 169] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 170] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 10240] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 171] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 172] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 173] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 174] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 10496] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 175] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 176] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 177] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 178] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 179] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 10752] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 180] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 181] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 182] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 183] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 11008] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 184] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 185] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 186] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 187] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 11264] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 188] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 189] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 190] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 191] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 11520] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 192] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 193] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 194] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 195] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 196] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 11776] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 197] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 198] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 199] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 200] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | FE 12032] best_local_obj=791379999.62  best_local_cost=146803461.65  best_local_viol=644576.5380
+[Run 03 | Gen 201] cur_best: cost=146803461.65  viol=644576.5380  obj=791379999.62 | best_so_far: cost=146803461.65  viol=644576.5380  obj=791379999.62
+[Run 03 | Gen 202] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 203] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 204] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | FE 12288] best_local_obj=729121206.58  best_local_cost=141093411.63  best_local_viol=588027.7950
+[Run 03 | Gen 205] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 206] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 207] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 208] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 209] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | FE 12544] best_local_obj=729121206.58  best_local_cost=141093411.63  best_local_viol=588027.7950
+[Run 03 | Gen 210] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 211] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 212] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | Gen 213] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+[Run 03 | FE 12800] best_local_obj=729121206.58  best_local_cost=141093411.63  best_local_viol=588027.7950
+[Run 03 | Gen 214] cur_best: cost=141093411.63  viol=588027.7950  obj=729121206.58 | best_so_far: cost=141093411.63  viol=588027.7950  obj=729121206.58
+
+[Stop] reached max_total_fe=12800.
+
+[Run 03] best_global_cost=141093411.6329, best_global_viol=588027.794951, best_global_obj=729121206.5842
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验一：横向对比/ga_global_logs/run_03_seed_1003/runs_summary.csv

@@ -1,0 +1,189 @@
+[RunConfig] run_id=11 seed=1011
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/UScode/US实验三：顺序模块/gcpcc_logs_US_RR/run_11_seed_1011
+[Data] nodes=4301
+[1/7] Load scenarios
+  2020: raw_edges=5296 days=366
+  2025: raw_edges=5296 days=365
+  2030: raw_edges=5296 days=365
+  2035: raw_edges=5296 days=365
+  2040: raw_edges=5296 days=366
+[Filter] w_min=1.0
+  active=2914 inactive=1387(fixed NONE)
+  2020: removed=2048 kept=3248
+  2025: removed=2048 kept=3248
+  2030: removed=2048 kept=3248
+  2035: removed=2048 kept=3248
+  2040: removed=2048 kept=3248
+  2020: filtered_edges=3248
+  2025: filtered_edges=3248
+  2030: filtered_edges=3248
+  2035: filtered_edges=3248
+  2040: filtered_edges=3248
+[2/7] Spatial cut + fragment repair
+  2020: K=7 top_sizes=[809, 550, 485, 424, 247, 229, 170] fragments=59
+  2025: K=7 top_sizes=[810, 549, 487, 422, 247, 229, 170] fragments=59
+  2030: K=7 top_sizes=[810, 549, 487, 422, 247, 229, 170] fragments=59
+  2035: K=7 top_sizes=[833, 554, 488, 393, 247, 229, 170] fragments=70
+  2040: K=7 top_sizes=[834, 554, 489, 392, 293, 226, 126] fragments=63
+[3/7] Consensus cut (min_agree=5, cfg_min=None, cfg_ratio=0.9)
+[ConsensusMerge] med=2 thr=30 merged=20
+  components=8 min/med/max=48/317/835
+  singleton_components=0
+[4/7] Build serial component order
+  serial_components=8
+[5/7] Initialize plan
+  init: cost=1787648383.56 viol=3121507304.2245 obj=3123294952608.06
+[6/7] Outer iterations
+
+[Run 11 Gen 1] comp=1/8 size=835
+[Run 11 Gen 1] fe+=256 fe=256 cost=2323070438.36 viol=2756952490.3855 obj=2759275560823.87
+
+[Run 11 Gen 2] comp=2/8 size=556
+[Run 11 Gen 2] fe+=256 fe=512 cost=2690194835.62 viol=2494047481.3881 obj=2496737676223.72
+
+[Run 11 Gen 3] comp=3/8 size=488
+[Run 11 Gen 3] fe+=256 fe=768 cost=2961631273.97 viol=2277670317.3646 obj=2280631948638.59
+
+[Run 11 Gen 4] comp=4/8 size=389
+[Run 11 Gen 4] fe+=256 fe=1024 cost=3261046575.34 viol=2095023533.4387 obj=2098284580014.09
+
+[Run 11 Gen 5] comp=5/8 size=246
+[Run 11 Gen 5] fe+=256 fe=1280 cost=3502079123.29 viol=2022398074.7367 obj=2025900153859.97
+
+[Run 11 Gen 6] comp=6/8 size=226
+[Run 11 Gen 6] fe+=256 fe=1536 cost=3646348465.75 viol=1907262363.0276 obj=1910908711493.36
+
+[Run 11 Gen 7] comp=7/8 size=126
+[Run 11 Gen 7] fe+=256 fe=1792 cost=3726759260.27 viol=1843264572.0563 obj=1846991331316.58
+
+[Run 11 Gen 8] comp=8/8 size=48
+[Run 11 Gen 8] fe+=256 fe=2048 cost=3794368356.16 viol=1787115145.9849 obj=1790909514341.11
+
+[Run 11 Gen 9] comp=1/8 size=835
+[Run 11 Gen 9] fe+=256 fe=2304 cost=3850775917.81 viol=1738766499.0323 obj=1742617274950.14
+
+[Run 11 Gen 10] comp=2/8 size=556
+[Run 11 Gen 10] fe+=256 fe=2560 cost=3939412890.41 viol=1676234477.9460 obj=1680173890836.44
+
+[Run 11 Gen 11] comp=3/8 size=488
+[Run 11 Gen 11] fe+=256 fe=2816 cost=3996645589.04 viol=1629051817.5338 obj=1633048463122.82
+
+[Run 11 Gen 12] comp=4/8 size=389
+[Run 11 Gen 12] fe+=256 fe=3072 cost=4057728890.41 viol=1599163999.7471 obj=1603221728637.53
+
+[Run 11 Gen 13] comp=5/8 size=246
+[Run 11 Gen 13] fe+=256 fe=3328 cost=4107610602.74 viol=1596412123.3293 obj=1600519733932.01
+
+[Run 11 Gen 14] comp=6/8 size=226
+[Run 11 Gen 14] fe+=256 fe=3584 cost=4170169041.10 viol=1558418819.7476 obj=1562588988788.67
+
+[Run 11 Gen 15] comp=7/8 size=126
+[Run 11 Gen 15] fe+=256 fe=3840 cost=4191371945.21 viol=1553664087.3006 obj=1557855459245.83
+
+[Run 11 Gen 16] comp=8/8 size=48
+[Run 11 Gen 16] fe+=256 fe=4096 cost=4197322767.12 viol=1550207235.8319 obj=1554404558598.98
+
+[Run 11 Gen 17] comp=1/8 size=835
+[Run 11 Gen 17] fe+=256 fe=4352 cost=4242128794.52 viol=1519484048.6367 obj=1523726177431.23
+
+[Run 11 Gen 18] comp=2/8 size=556
+[Run 11 Gen 18] fe+=256 fe=4608 cost=4295911054.79 viol=1489842076.3385 obj=1494137987393.26
+
+[Run 11 Gen 19] comp=3/8 size=488
+[Run 11 Gen 19] fe+=256 fe=4864 cost=4300686684.93 viol=1479171238.6138 obj=1483471925298.72
+
+[Run 11 Gen 20] comp=4/8 size=389
+[Run 11 Gen 20] fe+=256 fe=5120 cost=4329390520.55 viol=1471815308.0629 obj=1476144698583.46
+
+[Run 11 Gen 21] comp=5/8 size=246
+[Run 11 Gen 21] fe+=256 fe=5376 cost=4336566479.45 viol=1470964306.2371 obj=1475300872716.53
+
+[Run 11 Gen 22] comp=6/8 size=226
+[Run 11 Gen 22] fe+=256 fe=5632 cost=4343292383.56 viol=1465140859.4351 obj=1469484151818.71
+
+[Run 11 Gen 23] comp=7/8 size=126
+[Run 11 Gen 23] fe+=256 fe=5888 cost=4340792054.79 viol=1463495433.4499 obj=1467836225504.71
+
+[Run 11 Gen 24] comp=8/8 size=48
+[Run 11 Gen 24] fe+=256 fe=6144 cost=4338791780.82 viol=1463378767.2419 obj=1467717559022.74
+
+[Run 11 Gen 25] comp=1/8 size=835
+[Run 11 Gen 25] fe+=256 fe=6400 cost=4359969712.33 viol=1453741648.4428 obj=1458101618155.09
+
+[Run 11 Gen 26] comp=2/8 size=556
+[Run 11 Gen 26] fe+=256 fe=6656 cost=4376697041.10 viol=1445141165.3471 obj=1449517862388.22
+
+[Run 11 Gen 27] comp=3/8 size=488
+[Run 11 Gen 27] fe+=256 fe=6912 cost=4397174808.22 viol=1434914357.8578 obj=1439311532666.07
+
+[Run 11 Gen 28] comp=4/8 size=389
+[Run 11 Gen 28] fe+=256 fe=7168 cost=4397174808.22 viol=1434914357.8578 obj=1439311532666.07
+
+[Run 11 Gen 29] comp=5/8 size=246
+[Run 11 Gen 29] fe+=256 fe=7424 cost=4402825520.55 viol=1434893831.6462 obj=1439296657166.80
+
+[Run 11 Gen 30] comp=6/8 size=226
+[Run 11 Gen 30] fe+=256 fe=7680 cost=4404425739.73 viol=1434727872.0350 obj=1439132297774.77
+
+[Run 11 Gen 31] comp=7/8 size=126
+[Run 11 Gen 31] fe+=256 fe=7936 cost=4426628698.63 viol=1433693280.9501 obj=1438119909648.78
+
+[Run 11 Gen 32] comp=8/8 size=48
+[Run 11 Gen 32] fe+=256 fe=8192 cost=4433529630.14 viol=1433302993.0554 obj=1437736522685.58
+
+[Run 11 Gen 33] comp=1/8 size=835
+[Run 11 Gen 33] fe+=256 fe=8448 cost=4433529630.14 viol=1433302993.0554 obj=1437736522685.58
+
+[Run 11 Gen 34] comp=2/8 size=556
+[Run 11 Gen 34] fe+=256 fe=8704 cost=4441105589.04 viol=1422304964.1675 obj=1426746069756.59
+
+[Run 11 Gen 35] comp=3/8 size=488
+[Run 11 Gen 35] fe+=256 fe=8960 cost=4467759260.27 viol=1412336817.9786 obj=1416804577238.87
+
+[Run 11 Gen 36] comp=4/8 size=389
+[Run 11 Gen 36] fe+=256 fe=9216 cost=4506639493.15 viol=1407352907.5468 obj=1411859547039.95
+
+[Run 11 Gen 37] comp=5/8 size=246
+[Run 11 Gen 37] fe+=256 fe=9472 cost=4506614575.34 viol=1406892756.0096 obj=1411399370584.90
+
+[Run 11 Gen 38] comp=6/8 size=226
+[Run 11 Gen 38] fe+=256 fe=9728 cost=4513765561.64 viol=1398950964.0471 obj=1403464729608.73
+
+[Run 11 Gen 39] comp=7/8 size=126
+[Run 11 Gen 39] fe+=256 fe=9984 cost=4504214301.37 viol=1398205461.5438 obj=1402709675845.15
+
+[Run 11 Gen 40] comp=8/8 size=48
+[Run 11 Gen 40] fe+=256 fe=10240 cost=4496138232.88 viol=1398205636.7214 obj=1402701774954.28
+
+[Run 11 Gen 41] comp=1/8 size=835
+[Run 11 Gen 41] fe+=256 fe=10496 cost=4506414575.34 viol=1388874795.6784 obj=1393381210253.79
+
+[Run 11 Gen 42] comp=2/8 size=556
+[Run 11 Gen 42] fe+=256 fe=10752 cost=4529142671.23 viol=1375721922.2525 obj=1380251064923.77
+
+[Run 11 Gen 43] comp=3/8 size=488
+[Run 11 Gen 43] fe+=256 fe=11008 cost=4522966821.92 viol=1371655401.7637 obj=1376178368585.66
+
+[Run 11 Gen 44] comp=4/8 size=389
+[Run 11 Gen 44] fe+=256 fe=11264 cost=4511690315.07 viol=1371036363.6138 obj=1375548053928.83
+
+[Run 11 Gen 45] comp=5/8 size=246
+[Run 11 Gen 45] fe+=256 fe=11520 cost=4510390150.68 viol=1370863769.1481 obj=1375374159298.74
+
+[Run 11 Gen 46] comp=6/8 size=226
+[Run 11 Gen 46] fe+=256 fe=11776 cost=4510565178.08 viol=1370783847.3708 obj=1375294412548.89
+
+[Run 11 Gen 47] comp=7/8 size=126
+[Run 11 Gen 47] fe+=256 fe=12032 cost=4508864958.90 viol=1370574158.6521 obj=1375083023611.01
+
+[Run 11 Gen 48] comp=8/8 size=48
+[Run 11 Gen 48] fe+=256 fe=12288 cost=4508514904.11 viol=1370573983.5973 obj=1375082498501.40
+
+[Run 11 Gen 49] comp=1/8 size=835
+[Run 11 Gen 49] fe+=256 fe=12544 cost=4508514904.11 viol=1370573983.5973 obj=1375082498501.40
+
+[Run 11 Gen 50] comp=2/8 size=556
+[Run 11 Gen 50] fe+=256 fe=12800 cost=4510440150.68 viol=1368709858.6769 obj=1373220298827.57
+[Stop] reached max_outer_gen=50
+[7/7] Write outputs
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/UScode/US实验三：顺序模块/gcpcc_logs_US_RR/run_11_seed_1011/runs_summary.csv

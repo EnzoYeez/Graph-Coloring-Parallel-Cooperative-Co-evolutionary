@@ -1,0 +1,183 @@
+[RunConfig] run_id=20 seed=1020
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/UScode/US实验二：分解模块/gcpcc_logs_US_RG/run_20_seed_1020
+[Data] nodes=4301
+[1/7] Load scenarios
+  2020: raw_edges=5296 days=366
+  2025: raw_edges=5296 days=365
+  2030: raw_edges=5296 days=365
+  2035: raw_edges=5296 days=365
+  2040: raw_edges=5296 days=366
+[Filter] w_min=1.0
+  active=2914 inactive=1387(fixed NONE)
+  2020: removed=2048 kept=3248
+  2025: removed=2048 kept=3248
+  2030: removed=2048 kept=3248
+  2035: removed=2048 kept=3248
+  2040: removed=2048 kept=3248
+  2020: filtered_edges=3248
+  2025: filtered_edges=3248
+  2030: filtered_edges=3248
+  2035: filtered_edges=3248
+  2040: filtered_edges=3248
+[2/7] Decomposition: random grouping (fixed preprocessing)
+  random_groups=5 group_size=582
+  components=5 min/med/max=582/583/583
+  singleton_components=0
+[4/7] Dependency graph + coloring
+  color_groups=5 sizes=[1, 1, 1, 1, 1]
+[5/7] Initialize plan
+  init: cost=1783472589.04 viol=3136980306.8690 obj=3138763779458.02
+[6/7] Outer iterations
+
+[Run 20 Gen 1] group=0 comps=1
+[Run 20 Gen 1] fe+=256 fe=256 cost=2046232739.73 viol=2940013934.1115 obj=2942060166851.20
+
+[Run 20 Gen 2] group=1 comps=1
+[Run 20 Gen 2] fe+=256 fe=512 cost=2317769287.67 viol=2737057765.5882 obj=2739375534875.89
+
+[Run 20 Gen 3] group=2 comps=1
+[Run 20 Gen 3] fe+=256 fe=768 cost=2551300739.73 viol=2555378033.8905 obj=2557929334630.23
+
+[Run 20 Gen 4] group=3 comps=1
+[Run 20 Gen 4] fe+=256 fe=1024 cost=2876719547.95 viol=2342817128.2620 obj=2345693847809.99
+
+[Run 20 Gen 5] group=4 comps=1
+[Run 20 Gen 5] fe+=256 fe=1280 cost=3178135068.49 viol=2150740636.6558 obj=2153918771724.32
+
+[Run 20 Gen 6] group=0 comps=1
+[Run 20 Gen 6] fe+=256 fe=1536 cost=3237693178.08 viol=2102105208.1192 obj=2105342901297.25
+
+[Run 20 Gen 7] group=1 comps=1
+[Run 20 Gen 7] fe+=256 fe=1792 cost=3346207698.63 viol=2035141709.3878 obj=2038487917086.45
+
+[Run 20 Gen 8] group=2 comps=1
+[Run 20 Gen 8] fe+=256 fe=2048 cost=3446196205.48 viol=1978284199.1428 obj=1981730395348.30
+
+[Run 20 Gen 9] group=3 comps=1
+[Run 20 Gen 9] fe+=256 fe=2304 cost=3517580876.71 viol=1928487211.6680 obj=1932004792544.74
+
+[Run 20 Gen 10] group=4 comps=1
+[Run 20 Gen 10] fe+=256 fe=2560 cost=3573288493.15 viol=1877149879.3094 obj=1880723167802.53
+
+[Run 20 Gen 11] group=0 comps=1
+[Run 20 Gen 11] fe+=256 fe=2816 cost=3598391945.21 viol=1869301432.5690 obj=1872899824514.22
+
+[Run 20 Gen 12] group=1 comps=1
+[Run 20 Gen 12] fe+=256 fe=3072 cost=3570988219.18 viol=1852882073.3694 obj=1856453061588.56
+
+[Run 20 Gen 13] group=2 comps=1
+[Run 20 Gen 13] fe+=256 fe=3328 cost=3640647589.04 viol=1811041961.7142 obj=1814682609303.23
+
+[Run 20 Gen 14] group=3 comps=1
+[Run 20 Gen 14] fe+=256 fe=3584 cost=3706956465.75 viol=1787186805.6055 obj=1790893762071.29
+
+[Run 20 Gen 15] group=4 comps=1
+[Run 20 Gen 15] fe+=256 fe=3840 cost=3731084835.62 viol=1765351405.9424 obj=1769082490778.00
+
+[Run 20 Gen 16] group=0 comps=1
+[Run 20 Gen 16] fe+=256 fe=4096 cost=3741036205.48 viol=1758316986.5756 obj=1762058022781.06
+
+[Run 20 Gen 17] group=1 comps=1
+[Run 20 Gen 17] fe+=256 fe=4352 cost=3779666547.95 viol=1743699410.4745 obj=1747479077022.48
+
+[Run 20 Gen 18] group=2 comps=1
+[Run 20 Gen 18] fe+=256 fe=4608 cost=3789892945.21 viol=1725251875.8376 obj=1729041768782.81
+
+[Run 20 Gen 19] group=3 comps=1
+[Run 20 Gen 19] fe+=256 fe=4864 cost=3789892945.21 viol=1725251875.8376 obj=1729041768782.81
+
+[Run 20 Gen 20] group=4 comps=1
+[Run 20 Gen 20] fe+=256 fe=5120 cost=3817046561.64 viol=1696860773.0248 obj=1700677819586.40
+
+[Run 20 Gen 21] group=0 comps=1
+[Run 20 Gen 21] fe+=256 fe=5376 cost=3817046561.64 viol=1696860773.0248 obj=1700677819586.40
+
+[Run 20 Gen 22] group=1 comps=1
+[Run 20 Gen 22] fe+=256 fe=5632 cost=3817046561.64 viol=1696860773.0248 obj=1700677819586.40
+
+[Run 20 Gen 23] group=2 comps=1
+[Run 20 Gen 23] fe+=256 fe=5888 cost=3856001821.92 viol=1687354029.1992 obj=1691210031021.13
+
+[Run 20 Gen 24] group=3 comps=1
+[Run 20 Gen 24] fe+=256 fe=6144 cost=3861552589.04 viol=1683849942.4826 obj=1687711495071.67
+
+[Run 20 Gen 25] group=4 comps=1
+[Run 20 Gen 25] fe+=256 fe=6400 cost=3866028219.18 viol=1678174691.4829 obj=1682040719702.05
+
+[Run 20 Gen 26] group=0 comps=1
+[Run 20 Gen 26] fe+=256 fe=6656 cost=3896982328.77 viol=1664223407.0705 obj=1668120389399.27
+
+[Run 20 Gen 27] group=1 comps=1
+[Run 20 Gen 27] fe+=256 fe=6912 cost=3912409383.56 viol=1656418620.3406 obj=1660331029724.18
+
+[Run 20 Gen 28] group=2 comps=1
+[Run 20 Gen 28] fe+=256 fe=7168 cost=3912409383.56 viol=1656418620.3406 obj=1660331029724.18
+
+[Run 20 Gen 29] group=3 comps=1
+[Run 20 Gen 29] fe+=256 fe=7424 cost=3919085232.88 viol=1644300203.8387 obj=1648219289071.61
+
+[Run 20 Gen 30] group=4 comps=1
+[Run 20 Gen 30] fe+=256 fe=7680 cost=3960640821.92 viol=1624870108.2788 obj=1628830749100.76
+
+[Run 20 Gen 31] group=0 comps=1
+[Run 20 Gen 31] fe+=256 fe=7936 cost=3973492520.55 viol=1611701222.6540 obj=1615674715174.57
+
+[Run 20 Gen 32] group=1 comps=1
+[Run 20 Gen 32] fe+=256 fe=8192 cost=3964841369.86 viol=1610833664.7604 obj=1614798506130.26
+
+[Run 20 Gen 33] group=2 comps=1
+[Run 20 Gen 33] fe+=256 fe=8448 cost=3964841369.86 viol=1610833664.7604 obj=1614798506130.26
+
+[Run 20 Gen 34] group=3 comps=1
+[Run 20 Gen 34] fe+=256 fe=8704 cost=3971392246.58 viol=1602398303.1965 obj=1606369695443.09
+
+[Run 20 Gen 35] group=4 comps=1
+[Run 20 Gen 35] fe+=256 fe=8960 cost=3975017657.53 viol=1600749351.5761 obj=1604724369233.60
+
+[Run 20 Gen 36] group=0 comps=1
+[Run 20 Gen 36] fe+=256 fe=9216 cost=4003271493.15 viol=1596659167.3385 obj=1600662438831.61
+
+[Run 20 Gen 37] group=1 comps=1
+[Run 20 Gen 37] fe+=256 fe=9472 cost=4016648273.97 viol=1589369915.1328 obj=1593386563406.77
+
+[Run 20 Gen 38] group=2 comps=1
+[Run 20 Gen 38] fe+=256 fe=9728 cost=4016648273.97 viol=1589369915.1328 obj=1593386563406.77
+
+[Run 20 Gen 39] group=3 comps=1
+[Run 20 Gen 39] fe+=256 fe=9984 cost=4020198767.12 viol=1585104987.9844 obj=1589125186751.52
+
+[Run 20 Gen 40] group=4 comps=1
+[Run 20 Gen 40] fe+=256 fe=10240 cost=4019498712.33 viol=1584953677.1227 obj=1588973175835.06
+
+[Run 20 Gen 41] group=0 comps=1
+[Run 20 Gen 41] fe+=256 fe=10496 cost=4024249369.86 viol=1584224491.3185 obj=1588248740688.41
+
+[Run 20 Gen 42] group=1 comps=1
+[Run 20 Gen 42] fe+=256 fe=10752 cost=4045527301.37 viol=1573421395.8094 obj=1577466923110.73
+
+[Run 20 Gen 43] group=2 comps=1
+[Run 20 Gen 43] fe+=256 fe=11008 cost=4045527301.37 viol=1573421395.8094 obj=1577466923110.73
+
+[Run 20 Gen 44] group=3 comps=1
+[Run 20 Gen 44] fe+=256 fe=11264 cost=4045527301.37 viol=1573421395.8094 obj=1577466923110.73
+
+[Run 20 Gen 45] group=4 comps=1
+[Run 20 Gen 45] fe+=256 fe=11520 cost=4045527301.37 viol=1573421395.8094 obj=1577466923110.73
+
+[Run 20 Gen 46] group=0 comps=1
+[Run 20 Gen 46] fe+=256 fe=11776 cost=4045527301.37 viol=1573421395.8094 obj=1577466923110.73
+
+[Run 20 Gen 47] group=1 comps=1
+[Run 20 Gen 47] fe+=256 fe=12032 cost=4049602821.92 viol=1570024455.3028 obj=1574074058124.76
+
+[Run 20 Gen 48] group=2 comps=1
+[Run 20 Gen 48] fe+=256 fe=12288 cost=4049602821.92 viol=1570024455.3028 obj=1574074058124.76
+
+[Run 20 Gen 49] group=3 comps=1
+[Run 20 Gen 49] fe+=256 fe=12544 cost=4049602821.92 viol=1570024455.3028 obj=1574074058124.76
+
+[Run 20 Gen 50] group=4 comps=1
+[Run 20 Gen 50] fe+=256 fe=12800 cost=4054678506.85 viol=1565346348.5609 obj=1569401027067.77
+[Stop] reached max_outer_gen=50
+[7/7] Write outputs
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/UScode/US实验二：分解模块/gcpcc_logs_US_RG/run_20_seed_1020/runs_summary.csv

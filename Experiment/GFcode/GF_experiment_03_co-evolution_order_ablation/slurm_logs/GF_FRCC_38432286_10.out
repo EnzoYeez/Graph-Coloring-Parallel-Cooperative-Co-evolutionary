@@ -1,0 +1,186 @@
+[RunConfig] run_id=10 seed=1010
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验三：顺序模块/gcpcc_logs_GF_FR/run_10_seed_1010
+[Data] nodes=1810
+[1/7] Load scenarios
+  spring: raw_edges=3686 days=31
+  summer: raw_edges=3686 days=30
+  autumn: raw_edges=3686 days=31
+  winter: raw_edges=3686 days=30
+[Filter] w_min=1.0
+  active=1450 inactive=360(fixed NONE)
+  spring: removed=2281 kept=1405
+  summer: removed=2206 kept=1480
+  autumn: removed=2131 kept=1555
+  winter: removed=2189 kept=1497
+  spring: filtered_edges=1405
+  summer: filtered_edges=1480
+  autumn: filtered_edges=1555
+  winter: filtered_edges=1497
+[2/7] Spatial cut + fragment repair
+  spring: K=5 top_sizes=[395, 314, 288, 244, 209] fragments=125
+  summer: K=5 top_sizes=[394, 311, 288, 236, 221] fragments=71
+  autumn: K=5 top_sizes=[394, 312, 287, 236, 221] fragments=20
+  winter: K=5 top_sizes=[394, 313, 286, 236, 221] fragments=53
+[3/7] Consensus cut
+[ConsensusMerge] med=221 thr=33 merged=4
+  components=5 min/med/max=221/288/394
+  singleton_components=0
+[4/7] Dependency graph + coloring
+  color_groups=2 sizes=[2, 3]
+  serial_components=5
+[5/7] Initialize plan
+  init: cost=82703544.59 viol=1878397.5941 obj=1961101138.70
+[6/7] Outer iterations
+
+[Run 10 Gen 1] explore[1/5] comp=1/5 size=394
+[Run 10 Gen 1] fe+=256 fe=256 cost=92557985.82 viol=1205914.8172 obj=1298472803.06 delta_obj=662628335.644824 contrib=331314167.822412
+
+[Run 10 Gen 2] explore[2/5] comp=2/5 size=311
+[Run 10 Gen 2] fe+=256 fe=512 cost=99833693.64 viol=970171.5996 obj=1070005293.23 delta_obj=228467509.830701 contrib=114233754.915350
+
+[Run 10 Gen 3] explore[3/5] comp=3/5 size=288
+[Run 10 Gen 3] fe+=256 fe=768 cost=106096326.83 viol=606085.8961 obj=712182222.94 delta_obj=357823070.290480 contrib=178911535.145240
+
+[Run 10 Gen 4] explore[4/5] comp=4/5 size=236
+[Run 10 Gen 4] fe+=256 fe=1024 cost=114016716.92 viol=281284.5416 obj=395301258.48 delta_obj=316880964.455507 contrib=158440482.227753
+
+[Run 10 Gen 5] explore[5/5] comp=5/5 size=221
+[Run 10 Gen 5] fe+=256 fe=1280 cost=119450472.67 viol=156888.8575 obj=276339330.22 delta_obj=118961928.263375 contrib=59480964.131687
+
+[Run 10 Gen 6] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 6] fe+=256 fe=1536 cost=122858083.53 viol=118572.5797 obj=241430663.24 delta_obj=34908666.979925 contrib=183111417.401168
+
+[Run 10 Gen 7] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 7] fe+=256 fe=1792 cost=124423742.66 viol=104425.5563 obj=228849299.00 delta_obj=12581364.241353 contrib=97846390.821260
+
+[Run 10 Gen 8] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 8] fe+=256 fe=2048 cost=125621012.45 viol=87961.8015 obj=213582813.99 delta_obj=15266485.002120 contrib=97089010.073680
+
+[Run 10 Gen 9] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 9] fe+=256 fe=2304 cost=128568133.55 viol=69872.0270 obj=198440160.52 delta_obj=15142653.470891 contrib=86791567.849322
+
+[Run 10 Gen 10] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 10] fe+=256 fe=2560 cost=128660232.64 viol=50271.3607 obj=178931593.32 delta_obj=19508567.203089 contrib=66871161.059220
+
+[Run 10 Gen 11] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 11] fe+=256 fe=2816 cost=129120719.06 viol=42078.0646 obj=171198783.64 delta_obj=7732809.682502 contrib=52789600.251881
+
+[Run 10 Gen 12] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 12] fe+=256 fe=3072 cost=129397009.65 viol=40625.5474 obj=170022557.03 delta_obj=1176226.608899 contrib=49132618.341289
+
+[Run 10 Gen 13] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 13] fe+=256 fe=3328 cost=128291838.28 viol=35184.9117 obj=163476750.01 delta_obj=6545807.016062 contrib=46668687.432692
+
+[Run 10 Gen 14] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 14] fe+=256 fe=3584 cost=127923445.93 viol=34995.6420 obj=162919087.95 delta_obj=557662.064885 contrib=33714411.562052
+
+[Run 10 Gen 15] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 15] fe+=256 fe=3840 cost=126541981.97 viol=34791.9323 obj=161333914.31 delta_obj=1585173.641044 contrib=30533068.886366
+
+[Run 10 Gen 16] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 16] fe+=256 fe=4096 cost=126634078.38 viol=29920.3272 obj=156554405.57 delta_obj=4779508.739251 contrib=28784554.495566
+
+[Run 10 Gen 17] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 17] fe+=256 fe=4352 cost=125160518.01 viol=29484.4412 obj=154644959.19 delta_obj=1909446.377482 contrib=25521032.359386
+
+[Run 10 Gen 18] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 18] fe+=256 fe=4608 cost=125252614.76 viol=28702.2250 obj=153954839.81 delta_obj=690119.384015 contrib=23679403.408354
+
+[Run 10 Gen 19] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 19] fe+=256 fe=4864 cost=124700027.57 viol=27965.7770 obj=152665804.52 delta_obj=1289035.284841 contrib=17501723.423447
+
+[Run 10 Gen 20] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 20] fe+=256 fe=5120 cost=123410663.03 viol=27664.2344 obj=151074897.47 delta_obj=1590907.048587 contrib=16061987.967476
+
+[Run 10 Gen 21] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 21] fe+=256 fe=5376 cost=122305492.66 viol=27735.8822 obj=150041374.85 delta_obj=1033522.618423 contrib=14909038.556995
+
+[Run 10 Gen 22] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 22] fe+=256 fe=5632 cost=121108225.55 viol=28057.9995 obj=149166225.01 delta_obj=875149.848608 contrib=13198091.103997
+
+[Run 10 Gen 23] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 23] fe+=256 fe=5888 cost=120555640.03 viol=27571.5209 obj=148127160.91 delta_obj=1039064.098708 contrib=12359233.753531
+
+[Run 10 Gen 24] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 24] fe+=256 fe=6144 cost=120371444.85 viol=26554.7736 obj=146926218.49 delta_obj=1200942.411803 contrib=9351332.917625
+
+[Run 10 Gen 25] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 25] fe+=256 fe=6400 cost=120371444.85 viol=26554.7736 obj=146926218.49 delta_obj=0.000000 contrib=8030993.983738
+
+[Run 10 Gen 26] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 26] fe+=256 fe=6656 cost=120371444.85 viol=26554.7736 obj=146926218.49 delta_obj=0.000000 contrib=7454519.278497
+
+[Run 10 Gen 27] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 27] fe+=256 fe=6912 cost=120647736.78 viol=25427.9658 obj=146075702.62 delta_obj=850515.869812 contrib=7024303.486905
+
+[Run 10 Gen 28] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 28] fe+=256 fe=7168 cost=119726761.92 viol=25991.3401 obj=145718102.03 delta_obj=357600.599273 contrib=6358417.176402
+
+[Run 10 Gen 29] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 29] fe+=256 fe=7424 cost=119358370.57 viol=26232.4658 obj=145590836.33 delta_obj=127265.697845 contrib=4739299.307735
+
+[Run 10 Gen 30] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 30] fe+=256 fe=7680 cost=119358370.57 viol=25996.4323 obj=145354802.84 delta_obj=236033.486100 contrib=4133513.734919
+
+[Run 10 Gen 31] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 31] fe+=256 fe=7936 cost=118345298.29 viol=24862.2068 obj=143207505.09 delta_obj=2147297.749352 contrib=4800908.513925
+
+[Run 10 Gen 32] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 32] fe+=256 fe=8192 cost=118345298.62 viol=24652.4963 obj=142997794.90 delta_obj=209710.195053 contrib=3617006.840979
+
+[Run 10 Gen 33] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 33] fe+=256 fe=8448 cost=118069005.70 viol=24137.4277 obj=142206433.37 delta_obj=791361.530727 contrib=3574889.353565
+
+[Run 10 Gen 34] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 34] fe+=256 fe=8704 cost=117700613.68 viol=24135.5396 obj=141836153.30 delta_obj=370280.061938 contrib=2585594.287932
+
+[Run 10 Gen 35] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 35] fe+=256 fe=8960 cost=117608515.93 viol=23850.5698 obj=141459085.74 delta_obj=377067.567425 contrib=2558183.437580
+
+[Run 10 Gen 36] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 36] fe+=256 fe=9216 cost=117608515.93 viol=23848.1945 obj=141456710.39 delta_obj=2375.350800 contrib=2067944.542859
+
+[Run 10 Gen 37] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 37] fe+=256 fe=9472 cost=117055930.75 viol=24051.9877 obj=141107918.42 delta_obj=348791.967662 contrib=1982899.404320
+
+[Run 10 Gen 38] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 38] fe+=256 fe=9728 cost=116871735.91 viol=24051.9877 obj=140923723.58 delta_obj=184194.838356 contrib=1879542.095961
+
+[Run 10 Gen 39] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 39] fe+=256 fe=9984 cost=116871735.91 viol=24051.9877 obj=140923723.58 delta_obj=0.000000 contrib=1292797.143966
+
+[Run 10 Gen 40] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 40] fe+=256 fe=10240 cost=117055931.41 viol=23476.2634 obj=140532194.77 delta_obj=391528.813750 contrib=1474856.125665
+
+[Run 10 Gen 41] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 41] fe+=256 fe=10496 cost=116227052.64 viol=23816.4063 obj=140043458.94 delta_obj=488735.823082 contrib=1278340.182971
+
+[Run 10 Gen 42] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 42] fe+=256 fe=10752 cost=116227052.64 viol=23816.4063 obj=140043458.94 delta_obj=0.000000 contrib=991449.702160
+
+[Run 10 Gen 43] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 43] fe+=256 fe=11008 cost=116042857.46 viol=23831.9865 obj=139874843.94 delta_obj=168615.006003 contrib=1024078.550982
+
+[Run 10 Gen 44] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 44] fe+=256 fe=11264 cost=114569296.42 viol=24395.8004 obj=138965096.82 delta_obj=909747.119576 contrib=1192301.622621
+
+[Run 10 Gen 45] focus[1/1] comp=1/5 size=394
+[Run 10 Gen 45] fe+=256 fe=11520 cost=114569296.42 viol=24395.8004 obj=138965096.82 delta_obj=0.000000 contrib=646398.571983
+
+[Run 10 Gen 46] focus[1/1] comp=5/5 size=221
+[Run 10 Gen 46] fe+=256 fe=11776 cost=114569296.42 viol=24395.8004 obj=138965096.82 delta_obj=0.000000 contrib=639170.091485
+
+[Run 10 Gen 47] focus[1/1] comp=2/5 size=311
+[Run 10 Gen 47] fe+=256 fe=12032 cost=114477200.00 viol=24255.5724 obj=138732772.38 delta_obj=232324.433738 contrib=712313.028179
+
+[Run 10 Gen 48] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 48] fe+=256 fe=12288 cost=113556223.80 viol=24210.7645 obj=137766988.34 delta_obj=965784.044660 contrib=994931.297821
+
+[Run 10 Gen 49] focus[1/1] comp=4/5 size=236
+[Run 10 Gen 49] fe+=256 fe=12544 cost=113464128.05 viol=24210.7645 obj=137674892.59 delta_obj=92095.747945 contrib=543513.522883
+
+[Run 10 Gen 50] focus[1/1] comp=3/5 size=288
+[Run 10 Gen 50] fe+=256 fe=12800 cost=113279932.55 viol=24174.9967 obj=137454929.23 delta_obj=219963.357449 contrib=605706.529805
+[Stop] reached max_outer_gen=50
+[7/7] Write outputs
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验三：顺序模块/gcpcc_logs_GF_FR/run_10_seed_1010/runs_summary.csv

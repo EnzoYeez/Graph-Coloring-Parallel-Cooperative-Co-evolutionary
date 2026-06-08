@@ -1,0 +1,193 @@
+[RunConfig] run_id=10 seed=1010
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验三：顺序模块/gcpcc_logs_GF_CB/run_10_seed_1010
+[Data] nodes=1810
+[1/7] Load scenarios
+  spring: raw_edges=3686 days=31
+  summer: raw_edges=3686 days=30
+  autumn: raw_edges=3686 days=31
+  winter: raw_edges=3686 days=30
+[Filter] w_min=1.0
+  active=1450 inactive=360(fixed NONE)
+  spring: removed=2281 kept=1405
+  summer: removed=2206 kept=1480
+  autumn: removed=2131 kept=1555
+  winter: removed=2189 kept=1497
+  spring: filtered_edges=1405
+  summer: filtered_edges=1480
+  autumn: filtered_edges=1555
+  winter: filtered_edges=1497
+[2/7] Spatial cut + fragment repair
+  spring: K=5 top_sizes=[395, 314, 288, 244, 209] fragments=125
+  summer: K=5 top_sizes=[394, 311, 288, 236, 221] fragments=71
+  autumn: K=5 top_sizes=[394, 312, 287, 236, 221] fragments=20
+  winter: K=5 top_sizes=[394, 313, 286, 236, 221] fragments=53
+[3/7] Consensus cut
+[ConsensusMerge] med=221 thr=33 merged=4
+  components=5 min/med/max=221/288/394
+  singleton_components=0
+[4/7] Dependency graph + coloring
+  color_groups=2 sizes=[2, 3]
+  serial_components=5
+[5/7] Initialize plan
+  init: cost=82703544.59 viol=1878397.5941 obj=1961101138.70
+[6/7] Outer iterations
+
+[Run 10 Gen 1] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 1] fe+=256 fe=256 cost=92557985.82 viol=1205914.8172 obj=1298472803.06 cand_obj=1298472803.06 raw_improve=662628335.644824 accepted=1 eta=430708418.169135
+
+[Run 10 Gen 2] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 2] fe+=256 fe=512 cost=99833693.64 viol=970171.5996 obj=1070005293.23 cand_obj=1070005293.23 raw_improve=228467509.830701 accepted=1 eta=148503881.389956
+
+[Run 10 Gen 3] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 3] fe+=256 fe=768 cost=106096326.83 viol=606085.8961 obj=712182222.94 cand_obj=712182222.94 raw_improve=357823070.290480 accepted=1 eta=232584995.688812
+
+[Run 10 Gen 4] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 4] fe+=256 fe=1024 cost=114016716.92 viol=281284.5416 obj=395301258.48 cand_obj=395301258.48 raw_improve=316880964.455507 accepted=1 eta=205972626.896079
+
+[Run 10 Gen 5] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 5] fe+=256 fe=1280 cost=119450472.67 viol=156888.8575 obj=276339330.22 cand_obj=276339330.22 raw_improve=118961928.263375 accepted=1 eta=77325253.371194
+[Run 10 Gen 6] reward_pool=2/5 threshold=215354209.084568 eta_max=430708418.169135
+
+[Run 10 Gen 6] reward[1/2] comp=1/5 size=394
+[Run 10 Gen 6] fe+=256 fe=1536 cost=122858083.53 viol=118572.5797 obj=241430663.24 cand_obj=241430663.24 raw_improve=34908666.979925 accepted=1 eta=173438579.896149
+
+[Run 10 Gen 7] reward[2/2] comp=3/5 size=288
+[Run 10 Gen 7] fe+=256 fe=1792 cost=123779059.73 viol=101172.2372 obj=224951296.97 cand_obj=224951296.97 raw_improve=16479366.264338 accepted=1 eta=92116336.562904
+
+[Run 10 Gen 8] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 8] fe+=256 fe=2048 cost=122213401.59 viol=95067.3199 obj=217280721.46 cand_obj=217280721.46 raw_improve=7670575.511107 accepted=1 eta=65689377.045871
+
+[Run 10 Gen 9] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 9] fe+=256 fe=2304 cost=123226474.21 viol=77613.4422 obj=200839916.37 cand_obj=200839916.37 raw_improve=16440805.092401 accepted=1 eta=62662881.796545
+
+[Run 10 Gen 10] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 10] fe+=256 fe=2560 cost=122765987.78 viol=77419.5698 obj=200185557.60 cand_obj=200185557.60 raw_improve=654358.765696 accepted=1 eta=32666050.994719
+
+[Run 10 Gen 11] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 11] fe+=256 fe=2816 cost=123502767.80 viol=58899.6430 obj=182402410.83 cand_obj=182402410.83 raw_improve=17783146.773182 accepted=1 eta=83649464.816196
+
+[Run 10 Gen 12] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 12] fe+=256 fe=3072 cost=123226475.21 viol=57622.4741 obj=180848949.36 cand_obj=180848949.36 raw_improve=1553461.475181 accepted=1 eta=28073588.638785
+[Run 10 Gen 13] reward_pool=3/5 threshold=41824732.408098 eta_max=83649464.816196
+
+[Run 10 Gen 13] reward[1/3] comp=1/5 size=394
+[Run 10 Gen 13] fe+=256 fe=3328 cost=123594865.56 viol=53322.7579 obj=176917623.48 cand_obj=176917623.48 raw_improve=3931325.872894 accepted=1 eta=25546643.783436
+
+[Run 10 Gen 14] reward[2/3] comp=2/5 size=311
+[Run 10 Gen 14] fe+=256 fe=3584 cost=124055354.99 viol=50730.6973 obj=174786052.29 cand_obj=174786052.29 raw_improve=2131571.191485 accepted=1 eta=23317529.903256
+
+[Run 10 Gen 15] reward[3/3] comp=4/5 size=236
+[Run 10 Gen 15] fe+=256 fe=3840 cost=124884231.43 viol=45544.4041 obj=170428635.50 cand_obj=170428635.50 raw_improve=4357416.788646 accepted=1 eta=32109633.598288
+
+[Run 10 Gen 16] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 16] fe+=256 fe=4096 cost=122950182.62 viol=45618.1598 obj=168568342.42 cand_obj=168568342.42 raw_improve=1860293.085159 accepted=1 eta=10150515.829556
+
+[Run 10 Gen 17] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 17] fe+=256 fe=4352 cost=122305498.01 viol=45472.6531 obj=167778151.07 cand_obj=167778151.07 raw_improve=790191.350319 accepted=1 eta=8674759.843847
+
+[Run 10 Gen 18] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 18] fe+=256 fe=4608 cost=121752911.16 viol=44038.1161 obj=165791027.26 cand_obj=165791027.26 raw_improve=1987123.802693 accepted=1 eta=12724748.319902
+
+[Run 10 Gen 19] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 19] fe+=256 fe=4864 cost=121016130.13 viol=44358.5643 obj=165374694.48 cand_obj=165374694.48 raw_improve=416332.787057 accepted=1 eta=11508988.070988
+
+[Run 10 Gen 20] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 20] fe+=256 fe=5120 cost=119910959.43 viol=44817.4227 obj=164728382.12 cand_obj=164728382.12 raw_improve=646312.358366 accepted=1 eta=10245859.056513
+[Run 10 Gen 21] reward_skipped=1 (first_echelon=5/5, eta_max=12724748.319902)
+
+[Run 10 Gen 21] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 21] fe+=256 fe=5376 cost=120924031.71 viol=42363.3754 obj=163287407.12 cand_obj=163287407.12 raw_improve=1440975.000448 accepted=1 eta=4489314.290636
+
+[Run 10 Gen 22] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 22] fe+=256 fe=5632 cost=120463544.61 viol=41100.8614 obj=161564405.97 cand_obj=161564405.97 raw_improve=1723001.152690 accepted=1 eta=4156116.694595
+
+[Run 10 Gen 23] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 23] fe+=256 fe=5888 cost=119358374.25 viol=41820.9701 obj=161179344.36 cand_obj=161179344.36 raw_improve=385061.604519 accepted=1 eta=4703951.954904
+
+[Run 10 Gen 24] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 24] fe+=256 fe=6144 cost=118989983.90 viol=41582.1912 obj=160572175.10 cand_obj=160572175.10 raw_improve=607169.258005 accepted=1 eta=4422805.842549
+
+[Run 10 Gen 25] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 25] fe+=256 fe=6400 cost=118069008.04 viol=42435.8839 obj=160504891.95 cand_obj=160504891.95 raw_improve=67283.148414 accepted=1 eta=3629784.716248
+[Run 10 Gen 26] reward_skipped=1 (first_echelon=5/5, eta_max=4703951.954904)
+
+[Run 10 Gen 26] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 26] fe+=256 fe=6656 cost=118253202.21 viol=37590.1837 obj=155843385.92 cand_obj=155843385.92 raw_improve=4661506.036737 accepted=1 eta=4601238.925602
+
+[Run 10 Gen 27] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 27] fe+=256 fe=6912 cost=117792714.44 viol=38027.3354 obj=155820049.88 cand_obj=155820049.88 raw_improve=23336.041084 accepted=1 eta=1469809.269812
+
+[Run 10 Gen 28] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 28] fe+=256 fe=7168 cost=117792714.44 viol=38027.3354 obj=155820049.88 cand_obj=155820049.88 raw_improve=0.000000 accepted=0 eta=1646383.184216
+
+[Run 10 Gen 29] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 29] fe+=256 fe=7424 cost=117240130.26 viol=37630.9890 obj=154871119.27 cand_obj=154871119.27 raw_improve=948930.604122 accepted=1 eta=2164786.937571
+
+[Run 10 Gen 30] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 30] fe+=256 fe=7680 cost=117792715.78 viol=36824.4100 obj=154617125.77 cand_obj=154617125.77 raw_improve=253993.504592 accepted=1 eta=1435520.428672
+[Run 10 Gen 31] reward_pool=1/5 threshold=2300619.462801 eta_max=4601238.925602
+
+[Run 10 Gen 31] reward[1/1] comp=1/5 size=394
+[Run 10 Gen 31] fe+=256 fe=7936 cost=117608521.28 viol=36279.7531 obj=153888274.42 cand_obj=153888274.42 raw_improve=728851.352410 accepted=1 eta=2084187.003027
+
+[Run 10 Gen 32] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 32] fe+=256 fe=8192 cost=118989984.90 viol=31368.9544 obj=150358939.28 cand_obj=150358939.28 raw_improve=3529335.132001 accepted=1 eta=3023533.286860
+
+[Run 10 Gen 33] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 33] fe+=256 fe=8448 cost=119450471.33 viol=30315.5631 obj=149766034.40 cand_obj=149766034.40 raw_improve=592904.878804 accepted=1 eta=899821.415657
+
+[Run 10 Gen 34] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 34] fe+=256 fe=8704 cost=119910959.76 viol=28639.0278 obj=148549987.57 cand_obj=148549987.57 raw_improve=1216046.831529 accepted=1 eta=1366664.554970
+
+[Run 10 Gen 35] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 35] fe+=256 fe=8960 cost=119726764.93 viol=28690.8771 obj=148417642.05 cand_obj=148417642.05 raw_improve=132345.527256 accepted=1 eta=843700.020867
+
+[Run 10 Gen 36] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 36] fe+=256 fe=9216 cost=118621592.22 viol=29328.5752 obj=147950167.37 cand_obj=147950167.37 raw_improve=467474.675549 accepted=1 eta=806290.689142
+[Run 10 Gen 37] reward_pool=1/5 threshold=1511766.643430 eta_max=3023533.286860
+
+[Run 10 Gen 37] reward[1/1] comp=1/5 size=394
+[Run 10 Gen 37] fe+=256 fe=9472 cost=119082079.65 viol=27282.7754 obj=146364855.06 cand_obj=146364855.06 raw_improve=1585312.307463 accepted=1 eta=2088689.650252
+
+[Run 10 Gen 38] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 38] fe+=256 fe=9728 cost=118161103.12 viol=27387.8237 obj=145548926.86 cand_obj=145548926.86 raw_improve=815928.199007 accepted=1 eta=1261394.706942
+
+[Run 10 Gen 39] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 39] fe+=256 fe=9984 cost=118437396.04 viol=26503.3890 obj=144940785.01 cand_obj=144940785.01 raw_improve=608141.856873 accepted=1 eta=710229.702447
+
+[Run 10 Gen 40] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 40] fe+=256 fe=10240 cost=118437396.04 viol=26503.3890 obj=144940785.01 cand_obj=144940785.01 raw_improve=0.000000 accepted=0 eta=478332.594239
+
+[Run 10 Gen 41] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 41] fe+=256 fe=10496 cost=117976907.61 viol=26220.8157 obj=144197723.29 cand_obj=144197723.29 raw_improve=743061.721177 accepted=1 eta=778285.126068
+
+[Run 10 Gen 42] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 42] fe+=256 fe=10752 cost=117884810.86 viol=25813.7238 obj=143698534.70 cand_obj=143698534.70 raw_improve=499188.590385 accepted=1 eta=606674.324950
+[Run 10 Gen 43] reward_pool=3/5 threshold=630697.353471 eta_max=1261394.706942
+
+[Run 10 Gen 43] reward[1/3] comp=1/5 size=394
+[Run 10 Gen 43] fe+=256 fe=11008 cost=117884810.86 viol=25813.7238 obj=143698534.70 cand_obj=143698534.70 raw_improve=0.000000 accepted=0 eta=441488.147430
+
+[Run 10 Gen 44] reward[2/3] comp=2/5 size=311
+[Run 10 Gen 44] fe+=256 fe=11264 cost=117332225.01 viol=25884.0723 obj=143216297.31 cand_obj=143216297.31 raw_improve=482237.383855 accepted=1 eta=562034.695362
+
+[Run 10 Gen 45] reward[3/3] comp=4/5 size=236
+[Run 10 Gen 45] fe+=256 fe=11520 cost=117332225.01 viol=25884.0723 obj=143216297.31 cand_obj=143216297.31 raw_improve=0.000000 accepted=0 eta=272399.794124
+
+[Run 10 Gen 46] rr[1/5] comp=1/5 size=394
+[Run 10 Gen 46] fe+=256 fe=11776 cost=117148029.17 viol=25764.3196 obj=142912348.81 cand_obj=142912348.81 raw_improve=303948.502597 accepted=1 eta=352087.378288
+
+[Run 10 Gen 47] rr[2/5] comp=2/5 size=311
+[Run 10 Gen 47] fe+=256 fe=12032 cost=115858662.62 viol=26310.9595 obj=142169622.11 cand_obj=142169622.11 raw_improve=742726.700763 accepted=1 eta=679484.498873
+
+[Run 10 Gen 48] rr[3/5] comp=3/5 size=288
+[Run 10 Gen 48] fe+=256 fe=12288 cost=115858662.62 viol=26310.9595 obj=142169622.11 cand_obj=142169622.11 raw_improve=0.000000 accepted=0 eta=167416.407984
+
+[Run 10 Gen 49] rr[4/5] comp=4/5 size=236
+[Run 10 Gen 49] fe+=256 fe=12544 cost=114753491.92 viol=26596.7886 obj=141350280.53 cand_obj=141350280.53 raw_improve=819341.582770 accepted=1 eta=627911.956744
+
+[Run 10 Gen 50] rr[5/5] comp=5/5 size=221
+[Run 10 Gen 50] fe+=256 fe=12800 cost=114108809.32 viol=26454.5156 obj=140563324.90 cand_obj=140563324.90 raw_improve=786955.620940 accepted=1 eta=723857.167344
+[Stop] reached max_outer_gen=50
+[7/7] Write outputs
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验三：顺序模块/gcpcc_logs_GF_CB/run_10_seed_1010/runs_summary.csv
