@@ -4,7 +4,7 @@
 #SBATCH -N 1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
-#SBATCH --time=12:00:00
+#SBATCH --time=48:00:00
 #SBATCH --array=1-25
 #SBATCH -o slurm_logs/GF_ACO_%A_%a.out
 #SBATCH -e slurm_logs/GF_ACO_%A_%a.err

@@ -1,0 +1,502 @@
+[RunConfig] run_id=17 seed=1017
+[OutputDir] /work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验一：横向对比/aco_global_logs/run_17_seed_1017
+[Info] #nodes = 1810
+[Load] Reading scenarios ...
+  - spring: raw edges=3686, days=31
+  - summer: raw edges=3686, days=30
+  - autumn: raw edges=3686, days=31
+  - winter: raw edges=3686, days=30
+[Filter] EDGE_WEIGHT_MIN=1.0
+  - active_nodes=1450  inactive_nodes(fixed NONE)=360
+  - spring: removed=2281, kept=1405
+  - summer: removed=2206, kept=1480
+  - autumn: removed=2131, kept=1555
+  - winter: removed=2189, kept=1497
+  - spring: filtered edges (active subgraph)=1405
+  - summer: filtered edges (active subgraph)=1480
+  - autumn: filtered edges (active subgraph)=1555
+  - winter: filtered edges (active subgraph)=1497
+[ACO] Pheromone and heuristic initialized.
+[ACO] Iterate under FE budget ...
+[Run 17 | Iter 1] iter_best: cost=2670826.83  viol=5949376.8371  obj=5952047663.96 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 2] iter_best: cost=2302436.48  viol=6080614.8601  obj=6082917296.59 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 3] iter_best: cost=2302437.15  viol=6073133.5448  obj=6075435981.94 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 4] iter_best: cost=2210338.73  viol=6085706.5121  obj=6087916850.86 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 5] iter_best: cost=2026143.56  viol=6146134.0871  obj=6148160230.70 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 6] iter_best: cost=2578729.74  viol=5989107.9083  obj=5991686638.00 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 7] iter_best: cost=2486632.32  viol=5999070.8332  obj=6001557465.56 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 8] iter_best: cost=2302436.82  viol=6072521.6761  obj=6074824112.94 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | FE 256] best_local_obj=5952047663.96  best_local_cost=2670826.83  best_local_viol=5949376.8371
+[Run 17 | Iter 9] iter_best: cost=2670826.16  viol=5975759.6715  obj=5978430497.68 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 10] iter_best: cost=2486631.32  viol=6001976.3246  obj=6004462955.92 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 11] iter_best: cost=2394535.24  viol=6063951.1228  obj=6066345658.08 | best_so_far: cost=2670826.83  viol=5949376.8371  obj=5952047663.96
+[Run 17 | Iter 12] iter_best: cost=2855021.33  viol=5907132.1232  obj=5909987144.49 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 13] iter_best: cost=2302437.15  viol=6073418.0817  obj=6075720518.81 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 14] iter_best: cost=2302436.82  viol=6070486.9662  obj=6072789402.97 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 15] iter_best: cost=2118241.64  viol=6104270.3150  obj=6106388556.62 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 16] iter_best: cost=2302436.82  viol=6065284.2516  obj=6067586688.43 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 17] iter_best: cost=2302437.15  viol=6072885.1911  obj=6075187628.29 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 512] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 18] iter_best: cost=2486632.66  viol=6007979.3482  obj=6010465980.90 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 19] iter_best: cost=2486631.32  viol=6017248.3362  obj=6019734967.51 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 20] iter_best: cost=2578729.74  viol=5992594.0439  obj=5995172773.63 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 21] iter_best: cost=1934047.81  viol=6168172.9621  obj=6170107009.94 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 22] iter_best: cost=2302437.82  viol=6100386.9694  obj=6102689407.27 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 23] iter_best: cost=2394534.57  viol=6048447.9578  obj=6050842492.35 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 24] iter_best: cost=2302437.82  viol=6067360.1483  obj=6069662586.14 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 25] iter_best: cost=2210340.07  viol=6129029.6243  obj=6131239964.32 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 768] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 26] iter_best: cost=2210339.73  viol=6082540.6987  obj=6084751038.44 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 27] iter_best: cost=2210339.06  viol=6099690.9091  obj=6101901248.14 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 28] iter_best: cost=2210340.07  viol=6113340.8973  obj=6115551237.34 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 29] iter_best: cost=2302436.82  viol=6071760.2164  obj=6074062653.21 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 30] iter_best: cost=2394533.90  viol=6067019.1235  obj=6069413657.39 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 31] iter_best: cost=2118241.64  viol=6132895.4640  obj=6135013705.66 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 32] iter_best: cost=2486631.99  viol=6005191.5247  obj=6007678156.68 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 33] iter_best: cost=2302436.48  viol=6098270.3661  obj=6100572802.63 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 34] iter_best: cost=2210339.73  viol=6095625.9098  obj=6097836249.56 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 1024] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 35] iter_best: cost=2394534.57  viol=6033799.6448  obj=6036194179.38 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 36] iter_best: cost=2302437.15  viol=6061603.9018  obj=6063906338.92 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 37] iter_best: cost=2394534.24  viol=6014034.5826  obj=6016429116.81 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 38] iter_best: cost=2302436.15  viol=6079068.6916  obj=6081371127.74 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 39] iter_best: cost=2486632.66  viol=6002240.8083  obj=6004727440.99 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 40] iter_best: cost=2394533.90  viol=6041974.6833  obj=6044369217.22 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 41] iter_best: cost=2118241.98  viol=6113631.2978  obj=6115749539.73 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 42] iter_best: cost=2394534.24  viol=6035821.4478  obj=6038215982.05 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 1280] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 43] iter_best: cost=1934046.81  viol=6164509.0401  obj=6166443086.91 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 44] iter_best: cost=2210338.73  viol=6094660.8488  obj=6096871187.53 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 45] iter_best: cost=2762924.58  viol=5932910.6011  obj=5935673525.71 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 46] iter_best: cost=2302437.15  viol=6087560.3997  obj=6089862836.84 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 47] iter_best: cost=2302437.15  viol=6063371.7722  obj=6065674209.34 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 48] iter_best: cost=2394533.90  viol=6090393.1891  obj=6092787722.99 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 49] iter_best: cost=2302437.15  viol=6056278.4480  obj=6058580885.15 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 50] iter_best: cost=2762924.25  viol=5942353.0405  obj=5945115964.70 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 51] iter_best: cost=2302436.82  viol=6060934.8474  obj=6063237284.24 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 1536] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 52] iter_best: cost=2302436.48  viol=6045874.7390  obj=6048177175.44 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 53] iter_best: cost=2578729.41  viol=5963202.3593  obj=5965781088.73 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 54] iter_best: cost=2118241.64  viol=6142427.3435  obj=6144545585.15 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 55] iter_best: cost=2118241.64  viol=6137336.0706  obj=6139454312.21 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 56] iter_best: cost=2670827.50  viol=5944682.6410  obj=5947353468.51 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 57] iter_best: cost=2210339.40  viol=6094248.3991  obj=6096458738.47 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 58] iter_best: cost=2302436.48  viol=6047272.8800  obj=6049575316.44 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 59] iter_best: cost=2118240.98  viol=6117546.8804  obj=6119665121.42 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 1792] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 60] iter_best: cost=2026144.56  viol=6141161.4344  obj=6143187578.98 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 61] iter_best: cost=2302436.48  viol=6051554.9913  obj=6053857427.75 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 62] iter_best: cost=2118241.64  viol=6118091.6244  obj=6120209866.08 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 63] iter_best: cost=2486631.32  viol=6011254.9430  obj=6013741574.27 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 64] iter_best: cost=2486632.66  viol=6010046.6129  obj=6012533245.56 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 65] iter_best: cost=2302436.48  viol=6077733.3012  obj=6080035737.72 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 66] iter_best: cost=2118242.65  viol=6115951.4502  obj=6118069692.89 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 67] iter_best: cost=2486631.32  viol=6022448.2629  obj=6024934894.19 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 68] iter_best: cost=2394534.24  viol=6042267.4636  obj=6044661997.82 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | FE 2048] best_local_obj=5909987144.49  best_local_cost=2855021.33  best_local_viol=5907132.1232
+[Run 17 | Iter 69] iter_best: cost=2118242.31  viol=6129556.1043  obj=6131674346.57 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 70] iter_best: cost=2302437.15  viol=6052788.8942  obj=6055091331.32 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 71] iter_best: cost=2118241.64  viol=6129410.5516  obj=6131528793.24 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 72] iter_best: cost=2578730.41  viol=6009248.2614  obj=6011826991.76 | best_so_far: cost=2855021.33  viol=5907132.1232  obj=5909987144.49
+[Run 17 | Iter 73] iter_best: cost=3039217.84  viol=5899148.3232  obj=5902187541.09 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 74] iter_best: cost=2210339.06  viol=6092752.6282  obj=6094962967.28 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 75] iter_best: cost=2118241.64  viol=6123243.3118  obj=6125361553.45 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 76] iter_best: cost=2302437.48  viol=6065745.8334  obj=6068048270.89 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 2304] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 77] iter_best: cost=2210339.06  viol=6099321.3257  obj=6101531664.80 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 78] iter_best: cost=2486631.99  viol=6019663.0565  obj=6022149688.49 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 79] iter_best: cost=2578729.07  viol=5981313.2396  obj=5983891968.70 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 80] iter_best: cost=2026144.22  viol=6138290.0396  obj=6140316183.78 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 81] iter_best: cost=2302437.15  viol=6064841.3518  obj=6067143788.99 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 82] iter_best: cost=2394533.90  viol=6048511.2378  obj=6050905771.68 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 83] iter_best: cost=2486631.99  viol=6004548.4860  obj=6007035118.00 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 84] iter_best: cost=2026144.56  viol=6140432.7477  obj=6142458892.26 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 85] iter_best: cost=2118241.64  viol=6113310.2755  obj=6115428517.11 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 2560] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 86] iter_best: cost=2302436.48  viol=6053268.6900  obj=6055571126.45 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 87] iter_best: cost=2486632.32  viol=6027217.8009  obj=6029704433.20 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 88] iter_best: cost=2486631.65  viol=6023366.5328  obj=6025853164.42 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 89] iter_best: cost=2210339.40  viol=6131642.5000  obj=6133852839.43 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 90] iter_best: cost=2210340.07  viol=6121952.7269  obj=6124163066.95 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 91] iter_best: cost=2026144.22  viol=6142947.3922  obj=6144973536.38 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 92] iter_best: cost=2210339.73  viol=6093987.0290  obj=6096197368.73 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 93] iter_best: cost=2394534.90  viol=6029340.6223  obj=6031735157.25 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 2816] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 94] iter_best: cost=2210339.06  viol=6098712.3654  obj=6100922704.51 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 95] iter_best: cost=2026144.89  viol=6160071.4998  obj=6162097644.71 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 96] iter_best: cost=2486632.32  viol=5995095.6689  obj=5997582301.25 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 97] iter_best: cost=2118242.31  viol=6121869.0144  obj=6123987256.73 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 98] iter_best: cost=2210338.73  viol=6085681.1934  obj=6087891532.08 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 99] iter_best: cost=2302437.48  viol=6042737.4645  obj=6045039902.02 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 100] iter_best: cost=2762923.91  viol=5924864.5980  obj=5927627521.94 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 101] iter_best: cost=2210338.73  viol=6079850.6965  obj=6082061035.27 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 102] iter_best: cost=2855022.33  viol=5913993.8413  obj=5916848863.64 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 3072] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 103] iter_best: cost=2118242.65  viol=6102045.0423  obj=6104163284.98 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 104] iter_best: cost=2578729.74  viol=5980789.7448  obj=5983368474.58 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 105] iter_best: cost=2210339.73  viol=6109400.5050  obj=6111610844.77 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 106] iter_best: cost=2486632.32  viol=5988098.3014  obj=5990584933.73 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 107] iter_best: cost=2855021.33  viol=5903126.3710  obj=5905981392.31 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 108] iter_best: cost=2210338.39  viol=6087119.2420  obj=6089329580.39 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 109] iter_best: cost=2394534.24  viol=6017482.7008  obj=6019877235.07 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 110] iter_best: cost=2210338.73  viol=6118063.9442  obj=6120274282.97 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 3328] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 111] iter_best: cost=2394534.24  viol=6026759.4220  obj=6029153956.26 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 112] iter_best: cost=2486631.65  viol=5998085.5669  obj=6000572198.53 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 113] iter_best: cost=2026144.22  viol=6144599.4748  obj=6146625619.03 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 114] iter_best: cost=2118241.98  viol=6132812.4667  obj=6134930708.72 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 115] iter_best: cost=2578729.74  viol=5991758.7128  obj=5994337442.50 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 116] iter_best: cost=2302436.82  viol=6061321.1921  obj=6063623628.96 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 117] iter_best: cost=1934047.14  viol=6176078.7589  obj=6178012806.08 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 118] iter_best: cost=2118241.64  viol=6128781.5582  obj=6130899799.79 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 119] iter_best: cost=2394534.90  viol=6064754.0695  obj=6067148604.39 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 3584] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 120] iter_best: cost=2210338.73  viol=6083651.4873  obj=6085861826.03 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 121] iter_best: cost=2578730.41  viol=5969726.1713  obj=5972304901.70 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 122] iter_best: cost=2302437.15  viol=6065578.4096  obj=6067880846.71 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 123] iter_best: cost=2578729.41  viol=5990957.8195  obj=5993536548.93 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 124] iter_best: cost=2670826.16  viol=5990758.7547  obj=5993429580.82 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 125] iter_best: cost=2026143.89  viol=6151227.0868  obj=6153253230.71 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 126] iter_best: cost=1841949.05  viol=6221740.1847  obj=6223582133.77 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 127] iter_best: cost=2394534.24  viol=6031035.4620  obj=6033429996.22 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 3840] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 128] iter_best: cost=2210339.40  viol=6076243.4967  obj=6078453836.14 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 129] iter_best: cost=2210339.06  viol=6088186.2424  obj=6090396581.44 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 130] iter_best: cost=2210339.40  viol=6100668.9231  obj=6102879262.48 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 131] iter_best: cost=2578728.74  viol=5965333.5433  obj=5967912272.09 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 132] iter_best: cost=2670828.50  viol=5962745.0514  obj=5965415879.86 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 133] iter_best: cost=2394535.24  viol=6040657.0008  obj=6043051536.05 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 134] iter_best: cost=2670827.50  viol=5963226.5216  obj=5965897349.09 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 135] iter_best: cost=2210338.73  viol=6082310.5039  obj=6084520842.61 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 136] iter_best: cost=2302436.82  viol=6042359.1712  obj=6044661607.99 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 4096] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 137] iter_best: cost=2118241.64  viol=6133906.4655  obj=6136024707.09 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 138] iter_best: cost=2118242.31  viol=6122313.4883  obj=6124431730.65 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 139] iter_best: cost=2302436.82  viol=6112902.1407  obj=6115204577.53 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 140] iter_best: cost=2486631.99  viol=6030128.1120  obj=6032614744.02 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 141] iter_best: cost=2210339.40  viol=6083235.8711  obj=6085446210.54 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 142] iter_best: cost=2302437.48  viol=6071170.3290  obj=6073472766.49 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 143] iter_best: cost=2210339.73  viol=6092609.9073  obj=6094820247.08 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 144] iter_best: cost=2210339.06  viol=6115503.6271  obj=6117713966.20 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 145] iter_best: cost=2026144.22  viol=6147225.1577  obj=6149251301.88 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 4352] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 146] iter_best: cost=2302436.48  viol=6045695.8676  obj=6047998304.09 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 147] iter_best: cost=2210339.73  viol=6121301.8299  obj=6123512169.67 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 148] iter_best: cost=2118241.98  viol=6115548.1853  obj=6117666427.32 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 149] iter_best: cost=2026144.56  viol=6150467.6445  obj=6152493789.05 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 150] iter_best: cost=2118241.98  viol=6118708.1324  obj=6120826374.35 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 151] iter_best: cost=2302437.15  viol=6056148.2095  obj=6058450646.64 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 152] iter_best: cost=2486631.32  viol=6013867.4913  obj=6016354122.65 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 153] iter_best: cost=2486632.32  viol=6034987.8881  obj=6037474520.43 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 4608] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 154] iter_best: cost=2578729.74  viol=5996994.5055  obj=5999573235.27 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 155] iter_best: cost=2118241.64  viol=6112185.6299  obj=6114303871.50 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 156] iter_best: cost=2118241.98  viol=6125980.9565  obj=6128099198.51 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 157] iter_best: cost=2118241.98  viol=6126983.3598  obj=6129101601.78 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 158] iter_best: cost=2118241.98  viol=6130932.2176  obj=6133050459.59 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 159] iter_best: cost=2302436.82  viol=6086891.3131  obj=6089193749.96 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 160] iter_best: cost=2302436.48  viol=6087141.6441  obj=6089444080.56 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 161] iter_best: cost=2210339.06  viol=6107368.3209  obj=6109578659.99 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 162] iter_best: cost=2026143.89  viol=6137679.8332  obj=6139705977.04 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | FE 4864] best_local_obj=5902187541.09  best_local_cost=3039217.84  best_local_viol=5899148.3232
+[Run 17 | Iter 163] iter_best: cost=2578729.41  viol=5998128.5870  obj=6000707316.41 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 164] iter_best: cost=2118241.64  viol=6106267.7838  obj=6108386025.47 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 165] iter_best: cost=2302437.48  viol=6049598.5463  obj=6051900983.77 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 166] iter_best: cost=2026144.56  viol=6133499.9128  obj=6135526057.37 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 167] iter_best: cost=2394534.24  viol=6036547.3408  obj=6038941875.04 | best_so_far: cost=3039217.84  viol=5899148.3232  obj=5902187541.09
+[Run 17 | Iter 168] iter_best: cost=2855021.67  viol=5876991.8068  obj=5879846828.45 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 169] iter_best: cost=2394534.90  viol=6082370.8136  obj=6084765348.49 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 170] iter_best: cost=2118241.98  viol=6118985.0070  obj=6121103248.98 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 5120] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 171] iter_best: cost=2026144.22  viol=6140202.2849  obj=6142228429.14 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 172] iter_best: cost=2670826.83  viol=5944970.8242  obj=5947641651.04 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 173] iter_best: cost=2486632.66  viol=6014157.0658  obj=6016643698.45 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 174] iter_best: cost=2578729.41  viol=5960462.6266  obj=5963041356.04 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 175] iter_best: cost=2210339.40  viol=6077995.2747  obj=6080205614.10 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 176] iter_best: cost=2210339.73  viol=6104504.6322  obj=6106714971.95 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 177] iter_best: cost=2302437.15  viol=6063602.5654  obj=6065905002.53 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 178] iter_best: cost=2394533.90  viol=6052971.1909  obj=6055365724.80 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 179] iter_best: cost=2210339.40  viol=6082550.5841  obj=6084760923.55 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 5376] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 180] iter_best: cost=2026144.22  viol=6139331.8022  obj=6141357946.46 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 181] iter_best: cost=2302436.82  viol=6065643.0698  obj=6067945506.61 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 182] iter_best: cost=2486631.32  viol=6021559.7649  obj=6024046396.26 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 183] iter_best: cost=2486632.66  viol=6027813.4450  obj=6030300077.67 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 184] iter_best: cost=2394534.57  viol=6027793.0761  obj=6030187610.63 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 185] iter_best: cost=2670828.16  viol=5969568.5126  obj=5972239340.74 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 186] iter_best: cost=2118242.31  viol=6119427.9076  obj=6121546149.89 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 187] iter_best: cost=2118241.98  viol=6120550.4429  obj=6122668684.92 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 5632] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 188] iter_best: cost=2210339.73  viol=6088071.6426  obj=6090281982.38 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 189] iter_best: cost=2302436.82  viol=6071699.4508  obj=6074001887.63 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 190] iter_best: cost=2394534.24  viol=6069635.3224  obj=6072029856.66 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 191] iter_best: cost=2486631.32  viol=6061528.4299  obj=6064015061.20 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 192] iter_best: cost=2302436.15  viol=6067146.8811  obj=6069449317.23 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 193] iter_best: cost=2855022.67  viol=5900533.5859  obj=5903388608.59 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 194] iter_best: cost=2118241.98  viol=6124330.9250  obj=6126449167.02 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 195] iter_best: cost=2026145.23  viol=6148955.8021  obj=6150981947.30 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 196] iter_best: cost=2394534.24  viol=6031197.7146  obj=6033592248.81 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 5888] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 197] iter_best: cost=2118241.64  viol=6137844.6259  obj=6139962867.56 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 198] iter_best: cost=2670827.50  viol=5953259.2978  obj=5955930125.29 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 199] iter_best: cost=2302437.15  viol=6054860.0160  obj=6057162453.15 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 200] iter_best: cost=2210339.06  viol=6102710.3672  obj=6104920706.25 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 201] iter_best: cost=2302436.82  viol=6072019.3261  obj=6074321762.96 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 202] iter_best: cost=2210338.39  viol=6104894.5514  obj=6107104889.78 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 203] iter_best: cost=2118242.65  viol=6110015.0787  obj=6112133321.33 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 204] iter_best: cost=2486631.65  viol=6026846.5006  obj=6029333132.24 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 6144] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 205] iter_best: cost=2210339.06  viol=6083033.0809  obj=6085243419.97 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 206] iter_best: cost=2302435.81  viol=6056695.2903  obj=6058997726.07 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 207] iter_best: cost=2578728.74  viol=5973307.0348  obj=5975885763.52 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 208] iter_best: cost=2302436.82  viol=6069557.0356  obj=6071859472.43 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 209] iter_best: cost=2578728.74  viol=5974890.9179  obj=5977469646.61 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 210] iter_best: cost=2118241.98  viol=6119031.6298  obj=6121149871.74 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 211] iter_best: cost=2394534.57  viol=6027594.8789  obj=6029989413.50 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 212] iter_best: cost=2394533.90  viol=6037435.0294  obj=6039829563.34 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 213] iter_best: cost=2210339.40  viol=6093438.8166  obj=6095649155.96 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 6400] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 214] iter_best: cost=2302436.48  viol=6088730.3957  obj=6091032832.22 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 215] iter_best: cost=2210339.73  viol=6087546.7506  obj=6089757090.36 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 216] iter_best: cost=2394534.24  viol=6035612.4585  obj=6038006992.72 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 217] iter_best: cost=2210339.73  viol=6106655.0341  obj=6108865373.86 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 218] iter_best: cost=2578730.08  viol=6005163.3563  obj=6007742086.42 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 219] iter_best: cost=2486631.65  viol=6003995.5804  obj=6006482212.06 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 220] iter_best: cost=2210339.40  viol=6118807.0357  obj=6121017375.07 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 221] iter_best: cost=2762924.25  viol=5936841.4149  obj=5939604339.13 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 6656] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 222] iter_best: cost=2670827.50  viol=5952262.6525  obj=5954933480.03 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 223] iter_best: cost=2026143.89  viol=6148392.4805  obj=6150418624.37 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 224] iter_best: cost=2302436.48  viol=6051876.7335  obj=6054179169.97 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 225] iter_best: cost=2302437.15  viol=6088892.8445  obj=6091195281.67 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 226] iter_best: cost=2210339.73  viol=6086247.7506  obj=6088458090.36 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 227] iter_best: cost=2026144.22  viol=6145182.3662  obj=6147208510.47 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 228] iter_best: cost=2302436.48  viol=6060808.8874  obj=6063111323.92 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 229] iter_best: cost=2118242.31  viol=6110406.4512  obj=6112524693.47 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 230] iter_best: cost=2394534.24  viol=6078934.3223  obj=6081328856.57 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 6912] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 231] iter_best: cost=2210339.06  viol=6086268.5931  obj=6088478932.12 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 232] iter_best: cost=2118241.98  viol=6122022.3964  obj=6124140638.37 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 233] iter_best: cost=2486632.32  viol=6003661.1110  obj=6006147743.32 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 234] iter_best: cost=2486631.99  viol=6018580.8270  obj=6021067458.94 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 235] iter_best: cost=2210339.73  viol=6104843.9418  obj=6107054281.53 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 236] iter_best: cost=2394534.57  viol=6037356.8773  obj=6039751411.89 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 237] iter_best: cost=2578729.74  viol=5975959.3695  obj=5978538099.24 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 238] iter_best: cost=2762923.91  viol=5925548.3942  obj=5928311318.11 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 7168] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 239] iter_best: cost=2302436.48  viol=6061892.5999  obj=6064195036.38 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 240] iter_best: cost=1934047.14  viol=6164961.5191  obj=6166895566.21 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 241] iter_best: cost=1934046.47  viol=6181434.8036  obj=6183368850.07 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 242] iter_best: cost=2210339.73  viol=6105574.5863  obj=6107784926.03 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 243] iter_best: cost=2394534.24  viol=6070885.6050  obj=6073280139.26 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 244] iter_best: cost=2302436.15  viol=6054012.9760  obj=6056315412.10 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 245] iter_best: cost=2578729.07  viol=5970260.0021  obj=5972838731.15 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 246] iter_best: cost=2302436.82  viol=6074016.5822  obj=6076319019.06 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 247] iter_best: cost=2026143.56  viol=6150811.8115  obj=6152837955.03 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 7424] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 248] iter_best: cost=2118241.98  viol=6128847.4753  obj=6130965717.29 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 249] iter_best: cost=2762923.91  viol=5941250.4147  obj=5944013338.61 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 250] iter_best: cost=2394534.24  viol=6015978.4242  obj=6018372958.40 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 251] iter_best: cost=2578729.74  viol=5992183.8195  obj=5994762549.24 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 252] iter_best: cost=2394534.57  viol=6085878.7844  obj=6088273318.94 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 253] iter_best: cost=2210339.73  viol=6097061.2058  obj=6099271545.56 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 254] iter_best: cost=2486631.65  viol=6011461.0278  obj=6013947659.49 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 255] iter_best: cost=2486631.65  viol=5998083.2766  obj=6000569908.22 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 7680] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 256] iter_best: cost=2762924.92  viol=5919668.6777  obj=5922431602.61 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 257] iter_best: cost=2302436.82  viol=6055669.4024  obj=6057971839.18 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 258] iter_best: cost=2486631.99  viol=6005467.1098  obj=6007953741.77 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 259] iter_best: cost=2118241.31  viol=6135550.0312  obj=6137668272.53 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 260] iter_best: cost=2118241.64  viol=6133508.2196  obj=6135626461.24 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 261] iter_best: cost=2302436.82  viol=6052485.2403  obj=6054787677.13 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 262] iter_best: cost=2210339.06  viol=6073939.6617  obj=6076150000.72 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 263] iter_best: cost=2118241.31  viol=6157156.6200  obj=6159274861.27 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 264] iter_best: cost=2394534.24  viol=6039092.4883  obj=6041487022.49 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | FE 7936] best_local_obj=5879846828.45  best_local_cost=2855021.67  best_local_viol=5876991.8068
+[Run 17 | Iter 265] iter_best: cost=2118241.64  viol=6123493.5284  obj=6125611770.03 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 266] iter_best: cost=2210339.06  viol=6105731.8457  obj=6107942184.77 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 267] iter_best: cost=2302438.15  viol=6061746.7020  obj=6064049140.20 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 268] iter_best: cost=2394534.90  viol=6035200.3630  obj=6037594897.90 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 269] iter_best: cost=2762924.25  viol=5962700.2671  obj=5965463191.33 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 270] iter_best: cost=2118241.64  viol=6103606.2026  obj=6105724444.26 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 271] iter_best: cost=2302436.48  viol=6076859.2748  obj=6079161711.28 | best_so_far: cost=2855021.67  viol=5876991.8068  obj=5879846828.45
+[Run 17 | Iter 272] iter_best: cost=2855021.67  viol=5872935.8210  obj=5875790842.70 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 273] iter_best: cost=2394534.57  viol=6036291.4575  obj=6038685992.07 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 8192] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 274] iter_best: cost=2026143.89  viol=6140370.3216  obj=6142396465.52 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 275] iter_best: cost=2026144.56  viol=6179140.4650  obj=6181166609.54 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 276] iter_best: cost=2302436.82  viol=6049324.8573  obj=6051627294.09 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 277] iter_best: cost=2486631.65  viol=6007020.3640  obj=6009506995.65 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 278] iter_best: cost=2210339.06  viol=6076735.1942  obj=6078945533.25 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 279] iter_best: cost=2118241.98  viol=6115063.0536  obj=6117181295.55 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 280] iter_best: cost=2394533.90  viol=6036442.4997  obj=6038837033.61 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 281] iter_best: cost=2118241.64  viol=6117292.3129  obj=6119410554.50 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 8448] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 282] iter_best: cost=2210339.40  viol=6073131.7908  obj=6075342130.20 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 283] iter_best: cost=2210338.73  viol=6072995.4497  obj=6075205788.39 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 284] iter_best: cost=2486631.99  viol=6030389.3985  obj=6032876030.49 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 285] iter_best: cost=2210339.73  viol=6094136.7259  obj=6096347065.60 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 286] iter_best: cost=2210339.06  viol=6102316.3543  obj=6104526693.38 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 287] iter_best: cost=2302437.48  viol=6067584.1075  obj=6069886545.02 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 288] iter_best: cost=2302437.82  viol=6063060.0546  obj=6065362492.38 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 289] iter_best: cost=2118242.31  viol=6127895.7726  obj=6130014014.95 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 290] iter_best: cost=2486631.32  viol=6006306.2724  obj=6008792903.75 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 8704] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 291] iter_best: cost=2026143.89  viol=6143404.3316  obj=6145430475.54 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 292] iter_best: cost=1841949.72  viol=6205643.8626  obj=6207485812.34 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 293] iter_best: cost=2578729.07  viol=5982907.0504  obj=5985485779.47 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 294] iter_best: cost=2210339.06  viol=6085906.1874  obj=6088116526.46 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 295] iter_best: cost=2210339.73  viol=6099001.1405  obj=6101211480.19 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 296] iter_best: cost=2302436.82  viol=6041838.5127  obj=6044140949.48 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 297] iter_best: cost=2302436.82  viol=6044089.3501  obj=6046391786.88 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 298] iter_best: cost=2302437.15  viol=6082632.0362  obj=6084934473.33 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 8960] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 299] iter_best: cost=2302436.82  viol=6058681.5846  obj=6060984021.46 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 300] iter_best: cost=2302436.82  viol=6065054.3659  obj=6067356802.67 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 301] iter_best: cost=2486631.99  viol=6010325.9500  obj=6012812582.01 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 302] iter_best: cost=2302437.48  viol=6073267.6854  obj=6075570122.89 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 303] iter_best: cost=2394534.90  viol=6035277.8242  obj=6037672359.11 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 304] iter_best: cost=2302437.15  viol=6097654.4403  obj=6099956877.48 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 305] iter_best: cost=2302437.15  viol=6057772.4893  obj=6060074926.44 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 306] iter_best: cost=1934047.14  viol=6175451.8662  obj=6177385913.33 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 307] iter_best: cost=2302436.82  viol=6063479.8684  obj=6065782305.20 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 9216] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 308] iter_best: cost=2302437.48  viol=6057956.7178  obj=6060259155.27 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 309] iter_best: cost=2118241.98  viol=6104372.0782  obj=6106490320.15 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 310] iter_best: cost=2670827.16  viol=5952529.9350  obj=5955200762.12 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 311] iter_best: cost=2762925.25  viol=5908633.8884  obj=5911396813.64 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 312] iter_best: cost=2394534.24  viol=6042264.2927  obj=6044658826.91 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 313] iter_best: cost=2118241.98  viol=6123252.7424  obj=6125370984.38 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 314] iter_best: cost=2210340.07  viol=6104780.0516  obj=6106990391.69 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 315] iter_best: cost=2026144.22  viol=6158103.2692  obj=6160129413.45 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 9472] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 316] iter_best: cost=2302436.82  viol=6077063.5717  obj=6079366008.52 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 317] iter_best: cost=2302437.15  viol=6050034.5248  obj=6052336961.95 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 318] iter_best: cost=2026144.22  viol=6141579.5506  obj=6143605694.86 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 319] iter_best: cost=2302436.48  viol=6050353.6185  obj=6052656055.02 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 320] iter_best: cost=2118241.64  viol=6112289.6551  obj=6114407896.71 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 321] iter_best: cost=2210339.06  viol=6109725.3895  obj=6111935728.56 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 322] iter_best: cost=2486631.65  viol=6014180.1633  obj=6016666794.92 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 323] iter_best: cost=2118241.98  viol=6120357.9107  obj=6122476152.72 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 324] iter_best: cost=2118241.64  viol=6134777.6982  obj=6136895939.80 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 9728] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 325] iter_best: cost=2026144.89  viol=6140384.7712  obj=6142410916.13 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 326] iter_best: cost=2118243.65  viol=6116361.4254  obj=6118479669.04 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 327] iter_best: cost=2302437.15  viol=6089802.4501  obj=6092104887.27 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 328] iter_best: cost=2210339.40  viol=6136193.6367  obj=6138403976.05 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 329] iter_best: cost=2762924.58  viol=5953801.3953  obj=5956564319.90 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 330] iter_best: cost=2486631.65  viol=6012360.7776  obj=6014847409.25 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 331] iter_best: cost=2486631.32  viol=5997648.7429  obj=6000135374.22 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 332] iter_best: cost=2118241.64  viol=6108680.6813  obj=6110798922.97 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 9984] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 333] iter_best: cost=2578729.41  viol=5967713.8835  obj=5970292612.95 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 334] iter_best: cost=2578729.07  viol=5979510.1836  obj=5982088912.72 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 335] iter_best: cost=2210340.07  viol=6108158.5495  obj=6110368889.58 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 336] iter_best: cost=2026143.56  viol=6151864.7060  obj=6153890849.51 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 337] iter_best: cost=2302436.15  viol=6069926.9015  obj=6072229337.65 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 338] iter_best: cost=2670826.49  viol=5967952.4638  obj=5970623290.25 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 339] iter_best: cost=2210339.73  viol=6085012.7473  obj=6087223086.98 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 340] iter_best: cost=2210339.40  viol=6088130.1108  obj=6090340450.18 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 341] iter_best: cost=2394534.24  viol=6045944.4080  obj=6048338942.20 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 10240] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 342] iter_best: cost=2302437.15  viol=6060931.8671  obj=6063234304.27 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 343] iter_best: cost=2302437.48  viol=6044788.1339  obj=6047090571.41 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 344] iter_best: cost=2486632.32  viol=5997757.8303  obj=6000244462.66 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 345] iter_best: cost=2394534.90  viol=6032686.6216  obj=6035081156.51 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 346] iter_best: cost=2118241.98  viol=6135595.0336  obj=6137713275.62 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 347] iter_best: cost=2302436.82  viol=6057262.7741  obj=6059565210.88 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 348] iter_best: cost=2670827.16  viol=5971560.7939  obj=5974231621.05 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 349] iter_best: cost=2762924.25  viol=5920091.1259  obj=5922854050.16 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 10496] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 350] iter_best: cost=2210340.07  viol=6095710.5377  obj=6097920877.75 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 351] iter_best: cost=2394534.90  viol=6028061.5824  obj=6030456117.31 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 352] iter_best: cost=2302437.15  viol=6073866.0558  obj=6076168492.93 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 353] iter_best: cost=2210340.07  viol=6096814.8702  obj=6099025210.29 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 354] iter_best: cost=2210338.73  viol=6086899.9202  obj=6089110258.93 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 355] iter_best: cost=1934047.14  viol=6175518.2955  obj=6177452342.64 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 356] iter_best: cost=2394534.90  viol=6026614.3094  obj=6029008844.26 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 357] iter_best: cost=2302436.48  viol=6061987.4541  obj=6064289890.55 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 358] iter_best: cost=2486631.32  viol=6013007.6384  obj=6015494269.72 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 10752] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 359] iter_best: cost=2486631.32  viol=6029797.7073  obj=6032284338.66 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 360] iter_best: cost=2210339.06  viol=6107566.1951  obj=6109776534.20 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 361] iter_best: cost=2210340.40  viol=6091862.9111  obj=6094073251.49 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 362] iter_best: cost=2118241.98  viol=6147582.1653  obj=6149700407.26 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 363] iter_best: cost=2394534.57  viol=6057107.2620  obj=6059501796.57 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 364] iter_best: cost=2302437.15  viol=6073724.9847  obj=6076027421.83 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 365] iter_best: cost=2394534.57  viol=6061562.2893  obj=6063956823.85 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 366] iter_best: cost=2210339.40  viol=6093061.3696  obj=6095271708.99 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 11008] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 367] iter_best: cost=2394533.90  viol=6027510.8313  obj=6029905365.16 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 368] iter_best: cost=2394533.90  viol=6054048.7528  obj=6056443286.69 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 369] iter_best: cost=2118241.98  viol=6124261.6195  obj=6126379861.45 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 370] iter_best: cost=2486631.99  viol=6001047.7508  obj=6003534382.81 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 371] iter_best: cost=2302437.15  viol=6063086.9898  obj=6065389426.99 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 372] iter_best: cost=2302437.15  viol=6058378.7394  obj=6060681176.56 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 373] iter_best: cost=2210339.73  viol=6093094.6118  obj=6095304951.54 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 374] iter_best: cost=2302437.15  viol=6052963.9610  obj=6055266398.18 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 375] iter_best: cost=2486630.99  viol=5991642.3343  obj=5994128965.28 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 11264] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 376] iter_best: cost=2210339.73  viol=6102624.1089  obj=6104834448.65 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 377] iter_best: cost=2118241.64  viol=6115936.1117  obj=6118054353.37 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 378] iter_best: cost=2855022.33  viol=5885741.9185  obj=5888596940.87 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 379] iter_best: cost=2210340.07  viol=6109423.6623  obj=6111634002.40 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 380] iter_best: cost=2578728.41  viol=5988926.4086  obj=5991505137.02 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 381] iter_best: cost=2118241.64  viol=6120176.2471  obj=6122294488.75 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 382] iter_best: cost=2302436.82  viol=6095232.1819  obj=6097534618.76 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 383] iter_best: cost=2578730.41  viol=5986642.9702  obj=5989221700.64 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 11520] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 384] iter_best: cost=2210339.40  viol=6083953.8344  obj=6086164173.84 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 385] iter_best: cost=2302436.82  viol=6094179.1728  obj=6096481609.66 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 386] iter_best: cost=2026144.56  viol=6144838.6814  obj=6146864825.93 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 387] iter_best: cost=2486631.99  viol=5991374.0502  obj=5993860682.24 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 388] iter_best: cost=2486631.65  viol=6014143.4017  obj=6016630033.37 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 389] iter_best: cost=2118242.31  viol=6112695.2650  obj=6114813507.36 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 390] iter_best: cost=2486632.32  viol=6020838.3999  obj=6023325032.22 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 391] iter_best: cost=2486631.65  viol=5998003.0467  obj=6000489678.36 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 392] iter_best: cost=2578729.41  viol=5957087.7322  obj=5959666461.58 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 11776] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 393] iter_best: cost=2394534.90  viol=6049700.8448  obj=6052095379.68 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 394] iter_best: cost=2210340.07  viol=6096957.1098  obj=6099167449.82 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 395] iter_best: cost=2670827.50  viol=5949177.8416  obj=5951848669.09 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 396] iter_best: cost=2026144.22  viol=6165455.9438  obj=6167482088.06 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 397] iter_best: cost=2394534.57  viol=6026261.9805  obj=6028656515.10 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 398] iter_best: cost=2855022.33  viol=5907373.5871  obj=5910228609.41 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 399] iter_best: cost=2118241.64  viol=6130199.7987  obj=6132318040.35 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 400] iter_best: cost=2210338.73  viol=6098510.2088  obj=6100720547.49 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 401] iter_best: cost=2302436.48  viol=6075574.8153  obj=6077877251.79 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 12032] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 402] iter_best: cost=2118241.31  viol=6122759.4901  obj=6124877731.41 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 403] iter_best: cost=1934046.81  viol=6174382.1204  obj=6176316167.20 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 404] iter_best: cost=2302436.82  viol=6046195.5765  obj=6048498013.32 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 405] iter_best: cost=2302436.82  viol=6082756.6403  obj=6085059077.13 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 406] iter_best: cost=2670826.49  viol=5961382.4406  obj=5964053267.05 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 407] iter_best: cost=2394534.24  viol=6046646.9641  obj=6049041498.32 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 408] iter_best: cost=1934047.14  viol=6189597.4671  obj=6191531514.22 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 409] iter_best: cost=2302436.82  viol=6062116.2157  obj=6064418652.54 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 12288] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 410] iter_best: cost=2302437.48  viol=6069391.6283  obj=6071694065.75 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 411] iter_best: cost=2302436.48  viol=6097041.8502  obj=6099344286.67 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 412] iter_best: cost=2302436.82  viol=6053726.8166  obj=6056029253.38 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 413] iter_best: cost=2394534.57  viol=6058020.4506  obj=6060414985.22 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 414] iter_best: cost=2486631.99  viol=6016608.4986  obj=6019095130.60 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 415] iter_best: cost=2578729.41  viol=5997375.2420  obj=5999953971.37 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 416] iter_best: cost=2210339.40  viol=6129685.8893  obj=6131896228.74 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 417] iter_best: cost=2118241.98  viol=6132077.9225  obj=6134196164.46 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 418] iter_best: cost=2210339.73  viol=6079162.0385  obj=6081372378.23 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 12544] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 419] iter_best: cost=2486631.32  viol=6015238.4538  obj=6017725085.15 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 420] iter_best: cost=2486631.32  viol=6005790.3386  obj=6008276969.88 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 421] iter_best: cost=2210339.06  viol=6086199.4729  obj=6088409812.00 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 422] iter_best: cost=2210339.06  viol=6124309.0300  obj=6126519369.11 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 423] iter_best: cost=2670826.83  viol=5969893.0549  obj=5972563881.73 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 424] iter_best: cost=2302436.15  viol=6061315.1349  obj=6063617571.02 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 425] iter_best: cost=2118241.64  viol=6121396.7970  obj=6123515038.69 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | Iter 426] iter_best: cost=2578728.74  viol=5977766.2940  obj=5980345022.70 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+[Run 17 | FE 12800] best_local_obj=5875790842.70  best_local_cost=2855021.67  best_local_viol=5872935.8210
+[Run 17 | Iter 427] iter_best: cost=2118241.31  viol=6123885.6273  obj=6126003868.56 | best_so_far: cost=2855021.67  viol=5872935.8210  obj=5875790842.70
+
+[Stop] reached max_total_fe=12800.
+
+[Run 17] best_global_cost=2855021.6658, best_global_viol=5872935.821032, best_global_obj=5875790842.6982
+[Done] summary=/work/home/acn1eb8nfq/yuezhang46/GFcode/GF实验一：横向对比/aco_global_logs/run_17_seed_1017/runs_summary.csv

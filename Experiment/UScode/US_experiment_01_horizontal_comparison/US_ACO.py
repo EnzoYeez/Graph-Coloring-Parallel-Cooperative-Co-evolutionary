@@ -75,11 +75,13 @@ EDGE_WEIGHT_MIN = 1.0
 BETA_PENALTY = 1e3
 
 # ACO parameters
-ACO_ANTS = 30
+ACO_ANTS = 100
+
+X_MIN, X_MAX = 0.0, 3.0
 
 ALPHA_PHER = 1.0   # pheromone exponent
 BETA_HEU = 2.0     # heuristic exponent
-RHO = 0.2          # evaporation rate
+RHO = 0.05          # evaporation rate
 Q_PHER = 1.0       # deposit constant (scaled by 1/obj)
 
 # pheromone bounds (avoid collapse)
@@ -288,6 +290,17 @@ def solution_cost_global(all_nodes_solve: List[int], plan: Dict[int, int]) -> fl
             op += op_cost_yr[sid] * frac
     return build + op
 
+def decode_x_to_plan(x: np.ndarray, idx2nid: List[int]) -> Dict[int, int]:
+    plan = {}
+    for j, nid in enumerate(idx2nid):
+        sid = int(np.rint(x[j]))
+        if sid < 0:
+            sid = 0
+        if sid > 3:
+            sid = 3
+        plan[int(nid)] = sid
+    return plan
+
 def evaluate_global_plan(
     all_nodes_solve: List[int],
     edges_by_scenario: Dict[str, pd.DataFrame],
@@ -398,12 +411,22 @@ def sample_scale(tau_row: np.ndarray, eta_row: np.ndarray, rng: random.Random) -
     p = (w / s).tolist()
     return int(rng.choices([0, 1, 2, 3], weights=p, k=1)[0])
 
-def construct_ant_solution(active_nodes: List[int], tau: np.ndarray, eta: np.ndarray, rng: random.Random) -> Dict[int, int]:
-    plan: Dict[int, int] = {}
-    for i, nid in enumerate(active_nodes):
+def sample_continuous_value(scale_id: int, rng: random.Random) -> float:
+    sid = int(scale_id)
+    if sid <= 0:
+        lo, hi = X_MIN, 0.5
+    elif sid >= 3:
+        lo, hi = 2.5, X_MAX
+    else:
+        lo, hi = sid - 0.5, sid + 0.5
+    return float(rng.uniform(lo, hi))
+
+def construct_ant_solution(active_nodes: List[int], tau: np.ndarray, eta: np.ndarray, rng: random.Random) -> np.ndarray:
+    x = np.zeros((len(active_nodes),), dtype=np.float64)
+    for i, _nid in enumerate(active_nodes):
         l = sample_scale(tau[i], eta[i], rng)
-        plan[int(nid)] = int(l)
-    return plan
+        x[i] = sample_continuous_value(l, rng)
+    return x
 
 def evaporate(tau: np.ndarray) -> np.ndarray:
     tau = (1.0 - RHO) * tau
@@ -472,6 +495,7 @@ def run_aco_global(logger: Optional[RunLogger], seed: int, run_id: int = 1):
         print(f"  - {sname}: filtered edges (active subgraph)={len(edf)}", flush=True)
 
     all_nodes_solve = active_nodes
+    idx2nid = list(all_nodes_solve)
 
     # heuristic
     d_norm = compute_d_norm(all_nodes_solve, edges_by_scenario)
@@ -517,7 +541,8 @@ def run_aco_global(logger: Optional[RunLogger], seed: int, run_id: int = 1):
         for k in range(ACO_ANTS):
             if (logger is not None) and (logger.fe >= MAX_TOTAL_FE):
                 break
-            plan = construct_ant_solution(all_nodes_solve, tau, eta, rng)
+            x = construct_ant_solution(all_nodes_solve, tau, eta, rng)
+            plan = decode_x_to_plan(x, idx2nid)
             obj, cost, viol = evaluate_global_plan(all_nodes_solve, edges_by_scenario, plan, BETA_PENALTY, logger=logger)
 
             # ---- NEW: FE hint print (optional) ----
