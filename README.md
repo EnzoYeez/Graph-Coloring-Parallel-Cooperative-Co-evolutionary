@@ -1,6 +1,6 @@
-# Charging Demand Estimation in the RPCS Model
+# Charging Demand Estimation in the LSRPCS Model
 
-In the RPCS model, a set of $\mathcal{N}$ candidate locations, roads $\mathcal{E}$, and scenarios $\mathcal{T}$ are given. 
+In the LSRPCS model, a set of $\mathcal{N}$ candidate locations, roads $\mathcal{E}$, and scenarios $\mathcal{T}$ are given.
 The transportation network can be defined as:
 
 ```math
